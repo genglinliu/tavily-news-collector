@@ -1,0 +1,1466 @@
+[
+  {
+    "claim": "If CO2 was so terrible for the planet, then installing a CO2 generator in a greenhouse would kill the plants",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "at very high concentrations (100 times atmospheric concentration, or greater), carbon dioxide can be toxic to animal life, so raising the concentration to 10,000 ppm (1%) or higher for several hours will eliminate pests such as whiteflies and spider mites in a greenhouse.",
+    "evidence_label": "refutes",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "Sea level rise has been slow and a constant, pre-dating industrialization",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "under stalin's leadership, the government launched a command economy, industrialization of the largely rural country, and collectivization of its agriculture.",
+    "evidence_label": "not_enough_info",
+    "article": "russia"
+  },
+  {
+    "claim": "A windmill could spin until it falls apart and never generate as much energy as was invested in building it",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "the energy consumed to manufacture and transport the materials used to build a wind power plant is equal to the new energy produced by the plant within a few months.",
+    "evidence_label": "refutes",
+    "article": "wind farm"
+  },
+  {
+    "claim": "The rate of warming according to the data is much slower than the models used by the IPCC",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "physical climate models are also unable to reproduce the rapid warming observed in recent decades when taking into account only variations in solar output and volcanic activity.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming"
+  },
+  {
+    "claim": "Previous IPCC reports tended to assume that clouds would have a neutral impact because the warming and cooling feedbacks would cancel each other out",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "this feedback would partially cancel the increased surface warming due to the cloudiness.",
+    "evidence_label": "supports",
+    "article": "cloud feedback"
+  },
+  {
+    "claim": "Without carbon dioxide, all life on Earth would die",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the life and death of planet earth.",
+    "evidence_label": "not_enough_info",
+    "article": "carbon dioxide in earth's atmosphere"
+  },
+  {
+    "claim": "The melting ice has led to global sea level rise of around eight inches since reliable record keeping began in 1880",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the greenland ice sheet has experienced record melting in recent years since detailed records have been kept and is likely to contribute substantially to sea level rise as well as to possible changes in ocean circulation in the future if this is sustained.",
+    "evidence_label": "supports",
+    "article": "greenland ice sheet"
+  },
+  {
+    "claim": "Climate skeptics argue temperature records have been adjusted in recent years to make the past appear cooler and the present warmer, although the Carbon Brief showed that NOAA has actually made the past warmer, evening out the difference",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "improved measurement and analysis techniques have reconciled this discrepancy: corrected buoy and satellite surface temperatures are slightly cooler and corrected satellite and radiosonde measurements of the tropical troposphere are slightly warmer.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming controversy"
+  },
+  {
+    "claim": "Globally there's no clear evidence of trends and patterns in extreme events such as droughts, hurricanes and floods",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "the extremes of this climate pattern's oscillations cause extreme weather (such as floods and droughts) in many regions of the world.",
+    "evidence_label": "not_enough_info",
+    "article": "el ni\u00f1o\u2013southern oscillation"
+  },
+  {
+    "claim": "Actual weather records over the past 100 years show no correlation between rising carbon dioxide levels and local temperatures",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "correlation of co 2 and temperature is not part of this evidence.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming controversy"
+  },
+  {
+    "claim": "Water vapour has been the main greenhouse gas and carbon dioxide has had a minuscule effect on global climate",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "increases in atmospheric concentrations of co 2 and other long-lived greenhouse gases such as methane, nitrous oxide and ozone have correspondingly strengthened their absorption and emission of infrared radiation, causing the rise in average global temperature since the mid-20th century.",
+    "evidence_label": "not_enough_info",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "In Alaska, brown bears are changing their feeding habits to eat elderberries that ripen earlier",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "grizzlies in alaska supplement their diet of salmon and clams with sedge grass and berries.",
+    "evidence_label": "supports",
+    "article": "grizzly bear"
+  },
+  {
+    "claim": "An individual heatwave triggering coral bleaching cannot be linked to global warming as the process triggering an individual heatwave is fundamentally different from that triggering global warming",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "while localized triggers lead to localized bleaching, the large scale coral bleaching events of the recent years have been triggered by global warming.",
+    "evidence_label": "supports",
+    "article": "coral bleaching"
+  },
+  {
+    "claim": "Climate models predict too much warming in the troposphere",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "some models show more warming in the troposphere than at the surface, while a slightly smaller number of simulations show the opposite behavior.",
+    "evidence_label": "not_enough_info",
+    "article": "microwave sounding unit temperature measurements"
+  },
+  {
+    "claim": "Global human emissions are only 3 per cent of total annual emissions",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "agriculture, forestry and land-use change contributed around 20 to 25% to global annual emissions in 2010.",
+    "evidence_label": "not_enough_info",
+    "article": "agriculture"
+  },
+  {
+    "claim": "The grasslands, crops, forests and territorial waters of Australia absorb more carbon dioxide than Australia emits",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "it is estimated that forests absorb between 10 and 20 tons of carbon dioxide per hectare each year, through photosynthetic conversion into starch, cellulose, lignin, and other components of wooden biomass.",
+    "evidence_label": "supports",
+    "article": "carbon sink"
+  },
+  {
+    "claim": "Clean coal is an approach in which the emissions from coal-burning power plants would be captured and pumped underground",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the geothermal plant then pumps the carbonated water into rock formations underground where the carbon dioxide reacts with basaltic bedrock and forms carbonite minerals.",
+    "evidence_label": "not_enough_info",
+    "article": "carbon capture and storage"
+  },
+  {
+    "claim": "Global ocean circulation appears to be collapsing due to a warming planet",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "alterations in the quantity of atmospheric greenhouse gases determines the amount of solar energy retained by the planet, leading to global warming or global cooling.",
+    "evidence_label": "not_enough_info",
+    "article": "climate"
+  },
+  {
+    "claim": "According to the WHO, exposure to particulate matter increases the risk of acute lower respiratory infection, chronic obstructive pulmonary disease, heart disease, stroke and lung cancer",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "causes of deaths include strokes, heart disease, copd, lung cancer, and lung infections.",
+    "evidence_label": "not_enough_info",
+    "article": "air pollution"
+  },
+  {
+    "claim": "Growers regularly pump CO2 into greenhouses, raising levels to three times that of the natural environment, to produce stronger, greener, healthier plants",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "adequate levels of co2 must be maintained for the plants to grow efficiently.",
+    "evidence_label": "supports",
+    "article": "cannabis cultivation"
+  },
+  {
+    "claim": "Melting permafrost can release not just CO2, but also methane, a much stronger heat-trapping gas",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "it also contains gas hydrates in places, which are a \"potential abundant source of energy\" but may also destabilize as subsea permafrost warms and thaws, producing large amounts of methane gas, which is a potent greenhouse gas.",
+    "evidence_label": "supports",
+    "article": "permafrost"
+  },
+  {
+    "claim": "Arctic land stores about twice as much carbon as the atmosphere",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "permafrost contains almost twice as much carbon as is present in the atmosphere.",
+    "evidence_label": "supports",
+    "article": "atmospheric methane"
+  },
+  {
+    "claim": "While there has been a mean rise of a little more than 3mm per year worldwide since the 1990s, in the last decade, the NOAA Virginia Key tide gauge just south of Miami Beach has measured a 9mm rise annually",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "this could mean rapid sea level rise of up to 19\u00a0mm (0.75\u00a0in) per year by the end of the century.",
+    "evidence_label": "not_enough_info",
+    "article": "sea level rise"
+  },
+  {
+    "claim": "Because oxygen in the global ocean is not evenly distributed, the 2 percent overall decline means there is a much larger decline in some areas of the ocean than others",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the ocean has already lost oxygen, throughout the entire water column and oxygen minimum zones are expanding worldwide.",
+    "evidence_label": "supports",
+    "article": "effects of global warming"
+  },
+  {
+    "claim": "The amount of summer sea ice in the Arctic has steadily declined over the past few decades because of man-made global warming, according to the National Oceanic and Atmospheric Administration",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the effects of global warming in the arctic, or climate change in the arctic include rising air and water temperatures, loss of sea ice, and melting of the greenland ice sheet with a related cold temperature anomaly, observed since the 1970s.",
+    "evidence_label": "supports",
+    "article": "climate change in the arctic"
+  },
+  {
+    "claim": "Antarctic ice fluctuates wildly year to year, and the link to man-made global warming there is not clear, NASA ice expert Walt Meier said",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "there is evidence from one study that antarctica is warming as a result of human carbon dioxide emissions, but this remains ambiguous.",
+    "evidence_label": "not_enough_info",
+    "article": "antarctica"
+  },
+  {
+    "claim": "The jet stream forms a boundary between the cold north and the warmer south, but the lower temperature difference means the winds are now weaker",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "this in turn reduces the temperature gradient that drives jet stream winds, which may eventually cause the jet stream to become weaker and more variable in its course.",
+    "evidence_label": "supports",
+    "article": "jet stream"
+  },
+  {
+    "claim": "The jet stream meanders more, creating big loops that bring warm air to the frozen north and cold air to warmer southern regions",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "according to the uk met office, the jet stream deviated[clarification needed] to the south (bringing cold air with it) as a result of unusual contrast between cold air in canada and mild winter temperatures in the united states.",
+    "evidence_label": "not_enough_info",
+    "article": "early 2014 north american cold wave"
+  },
+  {
+    "claim": "Underneath the permafrost there are sediments full of methane hydrates",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "(2008) estimate that not less than 1,400 gigatonnes of carbon is presently locked up as methane and methane hydrates under the arctic submarine permafrost, and 5\u201310% of that area is subject to puncturing by open taliks.",
+    "evidence_label": "supports",
+    "article": "clathrate gun hypothesis"
+  },
+  {
+    "claim": "As surface temperatures of the oceans warm up, the immediate response is more water vapor in the atmosphere",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the heat needed to raise an average temperature increase of the entire world ocean by 0.01\u00a0\u00b0c would increase the atmospheric temperature by approximately 10 \u00b0c.",
+    "evidence_label": "not_enough_info",
+    "article": "sea level rise"
+  },
+  {
+    "claim": "Cold kills many more people than heat",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "in 2013, 1,216 people died due to the heat.",
+    "evidence_label": "refutes",
+    "article": "2015 indian heat wave"
+  },
+  {
+    "claim": "Coral bleaching has devastated 93% of the Great Barrier Reef",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "an overall analysis of coral loss found that coral populations on the great barrier reef had declined by 50.7% from 1985 to 2012, but with only about 10% of that decline attributable to bleaching, and the remaining 90% caused about equally by tropical cyclones and by predation by crown-of-thorns starfishes.",
+    "evidence_label": "refutes",
+    "article": "coral bleaching"
+  },
+  {
+    "claim": "More than half of the 44 studies selected for publication found that raised levels of CO2 had little or no impact on marine life, including crabs, limpets, sea urchins and sponges",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "plants\u00a0: including sea grasses, or mangroves fungi\u00a0: many marine fungi with diverse roles are found in oceanic environments animals\u00a0: most animal phyla have species that inhabit the ocean, including many that are only found in marine environments such as sponges, cnidaria (such as corals and jellyfish), comb jellies, brachiopods, and echinoderms (such as sea urchins and sea stars).",
+    "evidence_label": "not_enough_info",
+    "article": "ocean"
+  },
+  {
+    "claim": "Lyme disease is much more common in northern, cooler regions of the United States than in southern, warmer regions",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the area from southern rhode island, connecticut and new york city south to central florida has a temperate climate, with long, hot summers and cold winters with occasional snow in the northern portions, and milder winters in the southern portions.",
+    "evidence_label": "not_enough_info",
+    "article": "east coast of the united states"
+  },
+  {
+    "claim": "An area of coastal ecosystems larger than New York City is destroyed every year, removing an important buffer from extreme weather for coastal communities and releasing carbon dioxide into the atmosphere",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "both the decay and the burning of wood release much of this stored carbon back into the atmosphere.",
+    "evidence_label": "supports",
+    "article": "deforestation"
+  },
+  {
+    "claim": "Eleven percent of all global greenhouse gas emissions caused by humans are caused by deforestation - comparable to the emissions from all of the cars and trucks on the planet",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "tropical deforestation is responsible for approximately 20% of world greenhouse gas emissions.",
+    "evidence_label": "refutes",
+    "article": "deforestation"
+  },
+  {
+    "claim": "Since the beginning of the industrial revolution, the acidity of surface ocean waters has increased by about 30 percent",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "ocean acidification has increased 26% since the beginning of the industrial era.",
+    "evidence_label": "supports",
+    "article": "human impact on marine life"
+  },
+  {
+    "claim": "This increase is the result of humans emitting more carbon dioxide into the atmosphere and hence more being absorbed into the oceans",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the oceans act as an enormous carbon sink, and have taken up about a third of co 2 emitted by human activity.",
+    "evidence_label": "supports",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "The concentration of carbon dioxide in Earth's atmosphere has climbed to a level last seen more than 3 million years ago - before humans even appeared on the rocky ball we call home",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the daily average concentration of atmospheric co 2 at mauna loa observatory first exceeded 400 ppm on 10 may 2013 although this concentration had already been reached in the arctic in june 2012.",
+    "evidence_label": "not_enough_info",
+    "article": "carbon dioxide in earth's atmosphere"
+  },
+  {
+    "claim": "Unadjusted data suggests that temperatures in Australia have only increased by 0.3 degrees over the past century, not the 1 degree usually claimed",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "\"australia's extreme heat is sign of things to come, scientists warn\".",
+    "evidence_label": "not_enough_info",
+    "article": "australia"
+  },
+  {
+    "claim": "Doubling the concentration of atmospheric CO2 from its pre-industrial level, in the absence of other forcings and feedbacks, would likely cause a warming of ~0.3°C to 1.1°C",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the higher co2 levels led to an additional climate warming ranging between 0.1\u00b0 and 1.5\u00a0\u00b0c.",
+    "evidence_label": "supports",
+    "article": "climate change feedback"
+  },
+  {
+    "claim": "Climate change is due to cosmic rays",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "the primary goal is to understand the influence of galactic cosmic rays (gcrs) on aerosols and clouds, and their implications for climate.",
+    "evidence_label": "not_enough_info",
+    "article": "cloud experiment"
+  },
+  {
+    "claim": "Arctic icemelt is a natural cycle",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "the arctic ice pack undergoes a regular seasonal cycle in which ice melts in spring and summer, reaches a minimum around mid-september, then increases during fall and winter.",
+    "evidence_label": "not_enough_info",
+    "article": "arctic ice pack"
+  },
+  {
+    "claim": "Renewables can't provide baseload power",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "\"supplying baseload power and reducing transmission requirements by interconnecting wind farms\".",
+    "evidence_label": "refutes",
+    "article": "base load"
+  },
+  {
+    "claim": "97% consensus on human-caused global warming has been disproven",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "in the scientific literature, there is an overwhelming consensus that global surface temperatures have increased in recent decades and that the trend is caused mainly by human-induced emissions of greenhouse gases.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming"
+  },
+  {
+    "claim": "Coral atolls grow as sea levels rise",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "gradual sea-level rise also allows for coral polyp activity to raise the atolls with the sea level.",
+    "evidence_label": "supports",
+    "article": "climate change in tuvalu"
+  },
+  {
+    "claim": "Global warming is increasing the risk of heatwaves",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "climate change also increases droughts and heat waves that inhibit plant growth, which makes it uncertain whether this balancing feedback will persist in the future.",
+    "evidence_label": "supports",
+    "article": "global warming"
+  },
+  {
+    "claim": "Rising CO2 increases atmospheric water vapor, which makes global warming much worse",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "increases in atmospheric concentrations of co 2 and other long-lived greenhouse gases such as methane, nitrous oxide and ozone have correspondingly strengthened their absorption and emission of infrared radiation, causing the rise in average global temperature since the mid-20th century.",
+    "evidence_label": "supports",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "Early 20th century warming is due to several causes, including rising CO2",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the largest contribution to total radiative forcing is caused by the increase in the atmospheric concentration of co2 since 1750.\"",
+    "evidence_label": "supports",
+    "article": "20th century"
+  },
+  {
+    "claim": "That human CO2 is causing global warming is known with high certainty & confirmed by observations",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "attribution of recent climate change is the effort to scientifically ascertain mechanisms responsible for recent global warming and related climate changes on earth.",
+    "evidence_label": "not_enough_info",
+    "article": "attribution of recent climate change"
+  },
+  {
+    "claim": "The 2nd law of thermodynamics is consistent with the greenhouse effect which is directly observed",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "this does not conflict with notions that have been observed of the fundamental laws of physics, namely cpt symmetry, since the second law applies statistically, it is hypothesized, on time-asymmetric boundary conditions.",
+    "evidence_label": "not_enough_info",
+    "article": "second law of thermodynamics"
+  },
+  {
+    "claim": "Theory, models and direct measurement confirm CO2 is currently the main driver of climate change",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "it is a major aspect of climate change and has been demonstrated by direct temperature measurements and by measurements of various effects of the warming.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming"
+  },
+  {
+    "claim": "When you account for all of the costs associated with burning coal and other fossil fuels, like air pollution and health effects, in reality they are significantly more expensive than most renewable energy sources",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "even in the areas with relatively low levels of air pollution, public health effects can be significant and costly, since a large number of people breathe in such pollutants.",
+    "evidence_label": "not_enough_info",
+    "article": "air pollution"
+  },
+  {
+    "claim": "Melting ice leads to more sunlight being absorbed by water, thus heating the Arctic",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the arctic gradually loses snow and ice, bare rock and water absorb more and more of the sun's energy, making the arctic even warmer.",
+    "evidence_label": "supports",
+    "article": "arctic national wildlife refuge"
+  },
+  {
+    "claim": "That humans are causing the rise in atmospheric CO2 is confirmed by multiple isotopic analyses",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "while co 2 absorption and release is always happening as a result of natural processes, the recent rise in co 2 levels in the atmosphere is known to be mainly due to human (anthropogenic) activity.",
+    "evidence_label": "supports",
+    "article": "carbon dioxide in earth's atmosphere"
+  },
+  {
+    "claim": "The CERN CLOUD experiment only tested one-third of one out of four requirements necessary to blame global warming on cosmic rays, and two of the other requirements have already failed",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "(2009): the cloud experiments at cern are interesting research but do not provide conclusive evidence that cosmic rays can serve as a major source of cloud seeding.",
+    "evidence_label": "supports",
+    "article": "attribution of recent climate change"
+  },
+  {
+    "claim": "The IPCC 95% confidence that humans are responsible for most of the current global warming is simply a summary of the peer-reviewed scientific research",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the ipcc was tasked with reviewing peer-reviewed scientific literature and other relevant publications to provide information on the state of knowledge about climate change.",
+    "evidence_label": "not_enough_info",
+    "article": "intergovernmental panel on climate change"
+  },
+  {
+    "claim": "HFCs (hydrofluorocarbons) are tens of thousands of times more polluting than carbon dioxide",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "according to the report plastic will contribute greenhouse gases in the equivalent of 850 million tonnes of carbon dioxide (co2) to the atmosphere in 2019.",
+    "evidence_label": "not_enough_info",
+    "article": "greenhouse gas"
+  },
+  {
+    "claim": "Wind is a finite resource and harnessing it would slow the winds down, which would cause the temperature to go up",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the westerlies can be particularly strong, especially in the southern hemisphere, where there is less land in the middle latitudes to cause the flow pattern to amplify, which slows the winds down.",
+    "evidence_label": "not_enough_info",
+    "article": "wind"
+  },
+  {
+    "claim": "(Koch Industries) is among the worst in toxic air pollution in the entire United States ... and churns out more climate-changing greenhouse gases than oil giants Chevron, Shell and Valero",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "pollutants emitted into the atmosphere by human activity include: carbon dioxide (co 2) \u2013 because of its role as a greenhouse gas it has been described as \"the leading pollutant\" and \"the worst climate pollutant\".",
+    "evidence_label": "not_enough_info",
+    "article": "air pollution"
+  },
+  {
+    "claim": "A major part of the climate change bill sponsored by Sens. John Kerry and Joe Lieberman \"was essentially written by BP.\"",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "a release from the presidential campaign of presumptive democratic nominee al gore listed kerry on the short list to be selected as the vice-presidential nominee, along with north carolina senator john edwards, indiana senator evan bayh, missouri congressman richard gephardt, new hampshire governor jeanne shaheen and connecticut senator joe lieberman.",
+    "evidence_label": "not_enough_info",
+    "article": "john kerry"
+  },
+  {
+    "claim": "Carbon dioxide is not \"a primary contributor to the global warming that we see.\"",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "cumulative anthropogenic (i.e., human-emitted) emissions of co 2 from fossil fuel use are a major cause of global warming, and give some indication of which countries have contributed most to human-induced climate change.",
+    "evidence_label": "refutes",
+    "article": "greenhouse gas"
+  },
+  {
+    "claim": "Germany managed to increase its use of renewables and its output of carbon dioxide at the same time -- because it resorted to cheap coal to keep the lights on at a price its people could afford",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "it also enforces energy conservation, green technologies, emission reduction activities, and aims to meet the country's electricity demands using 40% renewable sources by 2020.",
+    "evidence_label": "supports",
+    "article": "germany"
+  },
+  {
+    "claim": "In reality, gas produced by fracking is worse for the climate than coal",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "although much less polluting than coal plants, natural gas-fired power plants are also major emitters.",
+    "evidence_label": "not_enough_info",
+    "article": "greenhouse gas"
+  },
+  {
+    "claim": "More than 260,000 Americans are employed by the domestic solar industry — three times as many workers as employed by the entire coal mining industry",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "furthermore, there are approximately 40,000 americans living and working in the kingdom.",
+    "evidence_label": "not_enough_info",
+    "article": "americans"
+  },
+  {
+    "claim": "Over 97 percent of the scientific community believe that humans are contributing to climate change",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "currently, through land development, combustion of fossil fuels, and pollution, humans are thought to be the main contributor to global climate change.",
+    "evidence_label": "supports",
+    "article": "human"
+  },
+  {
+    "claim": "The EPA director under Obama said the Clean Power Initiative would have no effect on man-made CO2 emissions",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "in 2014, president barack obama proposed a series of environmental protection agency (epa) regulations, known as the clean power plan that would reduce carbon pollution from coal-fired power plants.",
+    "evidence_label": "refutes",
+    "article": "climate change policy of the united states"
+  },
+  {
+    "claim": "The Obama administration has been constrained by the Oil Pollution Act of 1990, which basically gives the responsible party the lead role in trying to not only fix the problem, but contain the problem",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "on september 30, 2009, the obama administration proposed new regulations on power plants, factories, and oil refineries in an attempt to limit greenhouse gas emissions and to curb global warming.",
+    "evidence_label": "supports",
+    "article": "barack obama"
+  },
+  {
+    "claim": "The Millennium Drought starting in 1997 and ending in 2010 was misinterpreted as a long term trend as a consequence of climate change",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "climate change occurs when changes in earth's climate system result in new weather patterns that remain in place for an extended period of time.",
+    "evidence_label": "supports",
+    "article": "climate change (general concept)"
+  },
+  {
+    "claim": "Global warming is increasing the magnitude and frequency of droughts and floods",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "climate change also increases droughts and heat waves that inhibit plant growth, which makes it uncertain whether this balancing feedback will persist in the future.",
+    "evidence_label": "supports",
+    "article": "global warming"
+  },
+  {
+    "claim": "Global warming is causing more hurricanes and stronger hurricanes",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the effects of global warming include rising sea levels, regional changes in precipitation, more frequent extreme weather events such as heat waves, and expansion of deserts.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming"
+  },
+  {
+    "claim": "Water vapor is the most powerful greenhouse gas",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the oxidation of methane can produce both ozone and water; and is a major source of water vapor in the normally dry stratosphere.",
+    "evidence_label": "not_enough_info",
+    "article": "greenhouse gas"
+  },
+  {
+    "claim": "Global sea level data shows that sea level rise has been increasing since 1880 while future sea level rise predictions are based on physics, not statistics",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "using different satellites from 1992 to 2017 shows melt is increasing significantly over this period.",
+    "evidence_label": "not_enough_info",
+    "article": "sea level rise"
+  },
+  {
+    "claim": "Dropped stations introduce warming bias",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "greenhouse gases trap outgoing radiation warming the atmosphere which in turn warms the land.",
+    "evidence_label": "not_enough_info",
+    "article": "instrumental temperature record"
+  },
+  {
+    "claim": "Over 31,000 scientists signed the OISM petition project",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "according to the national science foundation, there were approximately 955,300 biological scientists in the united states in 1999.",
+    "evidence_label": "not_enough_info",
+    "article": "a scientific dissent from darwinism"
+  },
+  {
+    "claim": "Tuvalu sea level isn't rising",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "tuvaluan leaders have been concerned about the effects of rising sea levels.",
+    "evidence_label": "refutes",
+    "article": "tuvalu"
+  },
+  {
+    "claim": "UAH atmospheric temperatures prove climate models and/or surface temperature data sets are wrong",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "we have found that climate models and popular surface temperature data sets overstate the changes in the real atmosphere and that actual changes are not alarming.\"",
+    "evidence_label": "not_enough_info",
+    "article": "john christy"
+  },
+  {
+    "claim": "Scientific analysis of past climates shows that greenhouse gasses, principally CO2, have controlled most ancient climate changes",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "greenhouse gases, in particular carbon dioxide and methane, played a significant role during the eocene in controlling the surface temperature.",
+    "evidence_label": "supports",
+    "article": "eocene"
+  },
+  {
+    "claim": "While there are uncertainties with climate models, they successfully reproduce the past and have made predictions that have been subsequently confirmed by observations",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "these models are the basis for model predictions of future climate, such as are discussed by the ipcc.",
+    "evidence_label": "supports",
+    "article": "general circulation model"
+  },
+  {
+    "claim": "Numerous studies into the effect of urban heat island effect and microsite influences find they have negligible effect on long-term trends, particularly when averaged over large regions",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "on the other hand, one 1999 comparison between urban and rural areas proposed that urban heat island effects have little influence on global mean temperature trends.",
+    "evidence_label": "supports",
+    "article": "urban heat island"
+  },
+  {
+    "claim": "A large number of ancient mass extinction events have been strongly linked to global climate change",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "other causal or contributing factors to the extinction may have been the deccan traps and other volcanic eruptions, climate change, and sea level change.",
+    "evidence_label": "supports",
+    "article": "cretaceous\u2013paleogene extinction event"
+  },
+  {
+    "claim": "An article in Science magazine illustrated that a rise in carbon dioxide did not precede a rise in temperatures, but actually lagged behind temperature rises by 200 to 1000 years",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "in 2019 a paper published in the journal science found the oceans are heating 40% faster than the ipcc predicted just five years before.",
+    "evidence_label": "not_enough_info",
+    "article": "effects of global warming"
+  },
+  {
+    "claim": "The warming effect from more CO2 greatly outstrips the influence from changes in the Earth's orbit or solar activity, even if solar levels were to drop to Maunder Minimum levels",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "if the sun was responsible for observed warming, warming of the troposphere at the surface and warming at the top of the stratosphere would be expected as increase solar activity would replenish ozone and oxides of nitrogen.",
+    "evidence_label": "not_enough_info",
+    "article": "attribution of recent climate change"
+  },
+  {
+    "claim": "It is unclear whether global warming is increasing hurricane frequency but there is increasing evidence that warming increases hurricane intensity",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "more intense droughts and tropical cyclones) are more uncertain.",
+    "evidence_label": "not_enough_info",
+    "article": "effects of global warming"
+  },
+  {
+    "claim": "A paper by Ross McKitrick, an economics professor at the University of Guelph, and Patrick Michaels, an environmental studies professor at the University of Virginia, concludes that half of the global warming trend from 1980 to 2002 is caused by urban heat island",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "mcintyre agreed, and made contact with university of guelph economics professor ross mckitrick, a senior fellow of the fraser institute which opposed the kyoto treaty, and co-author of taken by storm: the troubled science, policy and politics of global warming.",
+    "evidence_label": "not_enough_info",
+    "article": "hockey stick controversy"
+  },
+  {
+    "claim": "While the medieval warm period saw unusually warm temperatures in some regions, globally the planet was cooler than current conditions",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "study found warmth exceeding 1961\u20131990 levels in southern greenland and parts of north america during the medieval climate anomaly (defined in the study from 950 to 1250) with warmth in some regions exceeding temperatures of the 1990\u20132010 period.",
+    "evidence_label": "not_enough_info",
+    "article": "medieval warm period"
+  },
+  {
+    "claim": "Surface measurements find more downward infrared radiation warming the planet's surface",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "most of the sunlight that reaches the ground is absorbed, warming the surface, which emits radiation upward at longer, infrared, wavelengths.",
+    "evidence_label": "not_enough_info",
+    "article": "cloud"
+  },
+  {
+    "claim": "Greenland on the whole is losing ice, as confirmed by multiple satellite and on the ground field measurements",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "these measurements came from the us space agency's grace (gravity recovery and climate experiment) satellite, launched in 2002, as reported by bbc.",
+    "evidence_label": "not_enough_info",
+    "article": "greenland ice sheet"
+  },
+  {
+    "claim": "While the Greenland interior is in mass balance, the coastlines are losing ice",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "\"greenland's coastal ice caps have melted past the point of no return\".",
+    "evidence_label": "supports",
+    "article": "sea level rise"
+  },
+  {
+    "claim": "While there are direct ways in which CO2 is a pollutant (acidification of the ocean), its primary impact is its greenhouse warming effect",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "increases in atmospheric concentrations of co 2 and other long-lived greenhouse gases such as methane, nitrous oxide and ozone have correspondingly strengthened their absorption and emission of infrared radiation, causing the rise in average global temperature since the mid-20th century.",
+    "evidence_label": "supports",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "Although it has some very important and beneficial effects, CO2 meets the legal and encyclopedic definitions of a pollutant, and human CO2 emissions pose a threat to public health and welfare",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "more favourable effects on yield tend to depend to a large extent on realization of the potentially beneficial effects of carbon dioxide on crop growth and increase of efficiency in water use.",
+    "evidence_label": "not_enough_info",
+    "article": "climate change and agriculture"
+  },
+  {
+    "claim": "Satellite and surface measurements find less energy is escaping to space at CO2 absorption wavelengths",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "co 2 absorbs and emits infrared radiation at wavelengths of 4.26 \u00b5m (asymmetric stretching vibrational mode) and 14.99\u00a0\u00b5m (bending vibrational mode) and consequently is a greenhouse gas that plays a significant role in influencing earth's surface temperature through the greenhouse effect.",
+    "evidence_label": "supports",
+    "article": "carbon dioxide in earth's atmosphere"
+  },
+  {
+    "claim": "Greenhouse gases have been the main contributor of warming since 1970",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "in the scientific literature, there is an overwhelming consensus that global surface temperatures have increased in recent decades and that the trend is caused mainly by human-induced emissions of greenhouse gases.",
+    "evidence_label": "supports",
+    "article": "global warming"
+  },
+  {
+    "claim": "The main reason behind this mid-century cooling was global dimming due to anthropogenic sulfate aerosol emissions",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "although the temperature drops foreseen by this mechanism have now been discarded in light of better theory and the observed warming, aerosols are thought to have contributed a cooling tendency (outweighed by increases in greenhouse gases) and also have contributed to \"global dimming.\"",
+    "evidence_label": "supports",
+    "article": "global cooling"
+  },
+  {
+    "claim": "Early 20th century warming was in large part due to rising solar activity and relatively quiet volcanic activity",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the average global temperature on earth has increased by about 0.8\u00b0 celsius (1.4\u00b0 fahrenheit) since 1880; two-thirds of the warming has occurred since 1975, at a rate of roughly 0.15-0.20\u00a0\u00b0c per decade.",
+    "evidence_label": "supports",
+    "article": "20th century"
+  },
+  {
+    "claim": "A natural cycle requires a forcing, and no known forcing exists that fits the fingerprints of observed warming - except anthropogenic greenhouse gases",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "attributing detected temperature changes and extreme events to human-caused increases in greenhouse gases requires scientists to rule out known internal climate variability and natural external forcings.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming"
+  },
+  {
+    "claim": "The minute increase of anthropogenic CO2 in the atmosphere (0.008%) was not the cause of the warming - it was a continuation of natural cycles that occurred over the past 500 years",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "the sharp acceleration in co 2 emissions since 2000 to more than a 3% increase per year (more than 2\u00a0ppm per year) from 1.1% per year during the 1990s is attributable to the lapse of formerly declining trends in carbon intensity of both developing and developed nations.",
+    "evidence_label": "not_enough_info",
+    "article": "greenhouse gas"
+  },
+  {
+    "claim": "The human fingerprint in global warming is evident in multiple lines of empirical evidence - in satellite measurements of outgoing infrared radiation, in surface measurements of downward infrared radiation, in the cooling stratosphere and other metrics",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "solar irradiance has been measured directly by satellites, and indirect measurements are available beginning in the early 1600s.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming"
+  },
+  {
+    "claim": "The IPCC confirms that computer modeling predicts the existence of a tropical, mid-troposphere hot spot about 10km above the Earth's surface",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "such models cannot yet simulate all aspects of climate (e.g., they still cannot account fully for the observed trend in the surface-troposphere temperature difference since 1979) and there are particular uncertainties associated with clouds and their interaction with radiation and aerosols.",
+    "evidence_label": "not_enough_info",
+    "article": "ipcc third assessment report"
+  },
+  {
+    "claim": "The Pacific Decadal Oscillation (PDO) is a temperature pattern in the Pacific Ocean that spends roughly 20-30 years in the cool phase or the warm phase",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the pacific decadal oscillation (pdo) is a robust, recurring pattern of ocean-atmosphere climate variability centered over the mid-latitude pacific basin.",
+    "evidence_label": "supports",
+    "article": "pacific decadal oscillation"
+  },
+  {
+    "claim": "The long term warming trend indicates the total energy in the Earth's climate system is increasing due to an energy imbalance",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "\"earth's energy imbalance\".",
+    "evidence_label": "not_enough_info",
+    "article": "earth's energy budget"
+  },
+  {
+    "claim": "The atmosphere of the Earth is less able to absorb shortwave radiation from the Sun than thermal radiation coming from the surface",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "for example, o2 and o3 absorb almost all wavelengths shorter than 300 nanometers.",
+    "evidence_label": "not_enough_info",
+    "article": "atmosphere of earth"
+  },
+  {
+    "claim": "The effect of this disparity is that thermal radiation escaping to space comes mostly from the cold upper atmosphere, while the surface is maintained at a substantially warmer temperature",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the geological record however shows a continuous relatively warm surface during the complete early temperature record of earth \u2013 with the exception of one cold glacial phase about 2.4 billion years ago.",
+    "evidence_label": "not_enough_info",
+    "article": "atmosphere of earth"
+  },
+  {
+    "claim": "The geologic record provides us with abundant evidence for such perpetual natural climate variability, from icecaps reaching almost to the equator to none at all, even at the poles",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "about 60.5 mya at the danian/selandian boundary, there is evidence of anoxia spreading out into coastal waters, and a drop in sea levels which is most likely explained as an increase in temperature and evaporation, as there was no ice at the poles to lock up water.",
+    "evidence_label": "supports",
+    "article": "paleocene"
+  },
+  {
+    "claim": "Volcanoes emit around 0.3 billion tonnes of CO2 per year",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "in the modern era, emissions to the atmosphere from volcanoes are approximately 0.645 billion tonnes of co 2 per year, whereas humans contribute 29 billion tonnes of co 2 each year.",
+    "evidence_label": "not_enough_info",
+    "article": "greenhouse gas"
+  },
+  {
+    "claim": "While methane is a more potent greenhouse gas than CO2, there is over 200 times more CO2 in the atmosphere",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "methane in the earth's atmosphere is a strong greenhouse gas with a global warming potential (gwp) 104 times greater than co2 in a 20-year time frame; methane is not as persistent a gas as co2 (assuming no change in carbon sequestration rates) and tails off to about gwp of 28 for a 100-year time frame.",
+    "evidence_label": "supports",
+    "article": "atmospheric methane"
+  },
+  {
+    "claim": "The final amount of extra CO2 that remains in the atmosphere stays there on a time scale of centuries",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the co2 concentration already released into the atmosphere since the beginning of industrialization, which has risen from well below 300 ppm to more than 415 ppm (2019).",
+    "evidence_label": "supports",
+    "article": "carbon price"
+  },
+  {
+    "claim": "CO2 levels are measured by hundreds of stations scattered across 66 countries which all report the same rising trend",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the integrated carbon observation system (icos) continuously releases data about co 2 emissions, budget and concentration at individual observation stations.",
+    "evidence_label": "not_enough_info",
+    "article": "carbon dioxide in earth's atmosphere"
+  },
+  {
+    "claim": "The Keeling Curve, which is widely used to show the increase in CO2 emissions, is based on data from the top of Mount Mauna Loa in Hawaii",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the keeling curve is a graph of the accumulation of carbon dioxide in the earth's atmosphere based on continuous measurements taken at the mauna loa observatory on the island of hawaii from 1958 to the present day.",
+    "evidence_label": "supports",
+    "article": "keeling curve"
+  },
+  {
+    "claim": "Warming causes more moisture in the air which leads to more extreme precipitation events",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "over most of the mid-latitude land masses and wet tropical regions, extreme precipitation events will very likely become more intense and frequent.",
+    "evidence_label": "supports",
+    "article": "effects of global warming"
+  },
+  {
+    "claim": "Far from contradicting global warming, record snowfall is predicted by climate models and consistent with our expectation of more extreme precipitation events",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "these models predict an upward trend in the global mean surface temperature, with the most rapid increase in temperature being projected for the higher latitudes of the northern hemisphere.",
+    "evidence_label": "not_enough_info",
+    "article": "climate"
+  },
+  {
+    "claim": "Volcanoes, solar variations, clouds, methane, aerosols - these all change the way energy enters and/or leaves our climate",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "these include processes such as variations in solar radiation, variations in the earth's orbit, variations in the albedo or reflectivity of the continents, atmosphere, and oceans, mountain-building and continental drift and changes in greenhouse gas concentrations.",
+    "evidence_label": "supports",
+    "article": "climate change (general concept)"
+  },
+  {
+    "claim": "Studies have determined that current technology is sufficient to reduce greenhouse gas emissions the necessary amount, and that we can do so without significant impact on the economy",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "economists generally argue that carbon taxes are the most efficient and effective way to curb climate change, with the least adverse effects on the economy.",
+    "evidence_label": "not_enough_info",
+    "article": "carbon tax"
+  },
+  {
+    "claim": "Tree-ring proxy reconstructions are reliable before 1960, tracking closely with the instrumental record and other independent proxies",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "the deviation of some tree ring proxy measurements from the instrumental record since the 1950s raises the question of the reliability of tree ring proxies in the period before the instrumental temperature record.",
+    "evidence_label": "refutes",
+    "article": "divergence problem"
+  },
+  {
+    "claim": "Global brightening is caused by changes in cloud cover, reflective aerosols and absorbing aerosols",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "in addition to black carbon, fossil fuel and biofuel soot contain aerosols and particulate matter that cool the planet by reflecting the sun's radiation away from the earth.",
+    "evidence_label": "supports",
+    "article": "black carbon"
+  },
+  {
+    "claim": "Pollution - none of us are supporting putting substances into the atmosphere or the waterways that might be pollutants, but carbon dioxide is not a pollutant",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "these dangerous pollutants are known as the criteria pollutants, and include ozone, particulate matter, sulfur dioxide, nitrogen dioxide, carbon monoxide, and lead.",
+    "evidence_label": "not_enough_info",
+    "article": "air pollution"
+  },
+  {
+    "claim": "Various independent measurements of solar activity all confirm the sun has shown a slight cooling trend since 1978",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "since 1978, output from the sun has been measured by satellites significantly more accurately than was previously possible from the surface.",
+    "evidence_label": "not_enough_info",
+    "article": "attribution of recent climate change"
+  },
+  {
+    "claim": "There is no single continuous satellite measurement of total solar irradiance",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "the solar radiation and climate experiment/total irradiance measurement (sorce/tim) tsi values are lower than prior measurements by the earth radiometer budget experiment (erbe) on the earth radiation budget satellite (erbs), virgo on the solar heliospheric observatory (soho) and the acrim instruments on the solar maximum mission (smm), upper atmosphere research satellite (uars) and acrimsat.",
+    "evidence_label": "not_enough_info",
+    "article": "solar irradiance"
+  },
+  {
+    "claim": "The correlation between solar activity and global temperatures ended around 1975, hence recent warming must have some other cause than solar variations",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "in the scientific literature, there is an overwhelming consensus that global surface temperatures have increased in recent decades and that the trend is caused mainly by human-induced emissions of greenhouse gases.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming"
+  },
+  {
+    "claim": "Thousands of coral atolls have drowned in the past when they were unable to grow fast enough to maintain a presence at sea level",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "more than 80 per cent of the country's land is composed of coral islands which rise less than one metre above sea level.",
+    "evidence_label": "not_enough_info",
+    "article": "maldives"
+  },
+  {
+    "claim": "Humans are emitting CO2 at a rate twice as fast as the atmospheric increase (natural sinks are absorbing the other half)",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the oceans act as an enormous carbon sink, and have taken up about a third of co 2 emitted by human activity.",
+    "evidence_label": "supports",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "That atmospheric CO2 increase that we observe is a product of temperature increase, and not the other way around, meaning it is a product of natural variation",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "increases in atmospheric concentrations of co 2 and other long-lived greenhouse gases such as methane, nitrous oxide and ozone have correspondingly strengthened their absorption and emission of infrared radiation, causing the rise in average global temperature since the mid-20th century.",
+    "evidence_label": "refutes",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "Once natural influences, in particular the impact of El Niño and La Niña, are removed from the recent temperature record, there is no evidence of a significant change in the human contribution to climate change",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "climate change means a change of climate which is attributed directly or indirectly to human activity that alters the composition of the global atmosphere and which is in addition to natural climate variability observed over comparable time periods.",
+    "evidence_label": "not_enough_info",
+    "article": "climate change (general concept)"
+  },
+  {
+    "claim": "The claim that 2.2 conventional jobs are destroyed for every new job created in the alternative energy industry is based on a study which relies on incorrect numbers, cherrypicked dates, faulty theory, flawed methodology, and is disproven by real-world examples",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "however, reassessments found the study to have flawed methodology.",
+    "evidence_label": "supports",
+    "article": "alternative medicine"
+  },
+  {
+    "claim": "Disasters cost more than ever - but not because of climate change",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "by addressing climate change, we can avoid the costs associated with the effects of climate change.",
+    "evidence_label": "refutes",
+    "article": "climate change mitigation"
+  },
+  {
+    "claim": "The satellite sensors show less warming in the lower troposphere than is reported by surface temperature readings",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "earth's surface) is typically the warmest section of the troposphere.",
+    "evidence_label": "not_enough_info",
+    "article": "atmosphere of earth"
+  },
+  {
+    "claim": "Increased atmospheric carbon dioxide has helped raise global food production and reduce poverty",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "potential negative environmental impacts caused by increasing atmospheric carbon dioxide concentrations are rising global air temperatures, altered hydrogeological cycles resulting in more frequent and severe droughts, storms, and floods, as well as sea level rise and ecosystem disruption.",
+    "evidence_label": "not_enough_info",
+    "article": "human impact on the environment"
+  },
+  {
+    "claim": "Most of the atmospheric moisture originates in the tropical ocean, and the difference between surface and upper atmospheric temperature determines how much of the moisture rises into the atmosphere",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "worldwide, tropical cyclone activity peaks in late summer, when the difference between temperatures aloft and sea surface temperatures is the greatest.",
+    "evidence_label": "supports",
+    "article": "low-pressure area"
+  },
+  {
+    "claim": "The 30 most costly hurricanes in U.S. history show no increase in intensity over time",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "it is tied with 2005's hurricane katrina as the costliest tropical cyclone on record, inflicting $125\u00a0billion (2017 usd) in damage, primarily from catastrophic rainfall-triggered flooding in the houston metropolitan area and southeast texas.",
+    "evidence_label": "not_enough_info",
+    "article": "hurricane harvey"
+  },
+  {
+    "claim": "The jet stream controls broad weather patterns, such as high-pressure and low-pressure systems",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "a polar low is a small-scale, short-lived atmospheric low-pressure system (depression) that is found over the ocean areas poleward of the main polar front in both the northern and southern hemispheres.",
+    "evidence_label": "not_enough_info",
+    "article": "cyclone"
+  },
+  {
+    "claim": "That's because as Antarctica's mass shrinks, the ice sheet's gravitational pull on the ocean relaxes somewhat, and the seas travel back across the globe to pile up far away - with U.S. coasts being one prime destination",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "during deglaciation, the melted ice water returns to the oceans, thus sea level in the ocean increases again.",
+    "evidence_label": "not_enough_info",
+    "article": "post-glacial rebound"
+  },
+  {
+    "claim": "Using satellite data rather than tide-gauge data that is normally used to measure sea levels allows for more precise estimates of global sea level, since it provides measurements of the open ocean",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "these very accurate observations of variations in sea surface height\u2014also known as ocean topography\u2014provide information about global sea level, the speed and direction of ocean currents, and heat stored in the ocean.",
+    "evidence_label": "not_enough_info",
+    "article": "ostm/jason-2"
+  },
+  {
+    "claim": "The warming is extremely rapid on the geologic time scale, and no other factor can explain it as well as human emissions of greenhouse gases",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "since the industrial revolution anthropogenic emissions \u2013 primarily from use of fossil fuels and deforestation \u2013 have rapidly increased its concentration in the atmosphere, leading to global warming.",
+    "evidence_label": "supports",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "The most notorious was 252 million years ago; it began when carbon warmed the planet by five degrees, accelerated when that warming triggered the release of methane in the Arctic, and ended with 97 percent of all life on Earth dead",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the last continental glaciation ended 10,000\u00a0years ago.",
+    "evidence_label": "not_enough_info",
+    "article": "earth"
+  },
+  {
+    "claim": "The Northern Hemisphere jet stream flow is stronger when that temperature difference is large",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the westerlies and associated jet stream within the mid-latitudes can be particularly strong, especially in the southern hemisphere, due to the temperature difference between the tropics and antarctica, which records the coldest temperature readings on the planet.",
+    "evidence_label": "not_enough_info",
+    "article": "pacific ocean"
+  },
+  {
+    "claim": "But when the Arctic warms up faster than the equator does, the jet stream's flow can become weakened and elongated",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "during these dark months the air high over the poles becomes much colder than the air over the equator.",
+    "evidence_label": "not_enough_info",
+    "article": "jet stream"
+  },
+  {
+    "claim": "The melting Greenland ice sheet is already a major contributor to rising sea level and if it was eventually lost entirely, the oceans would rise by six metres around the world, flooding many of the world's largest cities",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "ice sheet models project that such a warming would initiate the long-term melting of the ice sheet, leading to a complete melting of the ice sheet (over centuries), resulting in a global sea level rise of about 7 metres (23\u00a0ft).",
+    "evidence_label": "supports",
+    "article": "greenland ice sheet"
+  },
+  {
+    "claim": "Through decades of research, it has become clear that human civilization, roughly 6,000 years old, developed during an unusually stable period for global sea levels",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "[citation needed] by the beginning of the upper paleolithic period (50,000 bp), and likely significantly earlier by 100-70,000 years ago or possibly by about 300,000 years ago behavioral modernity, including language, music and other cultural universals had developed.",
+    "evidence_label": "not_enough_info",
+    "article": "human"
+  },
+  {
+    "claim": "Antarctica is gaining land-based ice, according to a new study by NASA scientists published in the Journal of Glaciology",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "[1] in their latest study (september 20, 2007) nasa researchers have confirmed that antarctic snow is melting farther inland from the coast over time, melting at higher altitudes than ever and increasingly melting on antarctica's largest ice shelf.",
+    "evidence_label": "refutes",
+    "article": "global warming in antarctica"
+  },
+  {
+    "claim": "Both the extent and thickness of Arctic sea ice has declined rapidly over the last several decades",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "observation with satellites show that arctic sea ice area, extent, and volume have been in decline for a few decades.",
+    "evidence_label": "supports",
+    "article": "arctic sea ice decline"
+  },
+  {
+    "claim": "Polar bear numbers are increasing",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "in two areas where harvest levels have been increased based on increased sightings, science-based studies have indicated declining populations, and a third area is considered data-deficient.",
+    "evidence_label": "refutes",
+    "article": "polar bear"
+  },
+  {
+    "claim": "U.S. pays $1 billion into green climate fund, top polluters pay nothing",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "in terms of dollars, the world bank has estimated that the size of the carbon market was us$11 billion in 2005, $30 billion in 2006, and $64 billion in 2007.",
+    "evidence_label": "not_enough_info",
+    "article": "emissions trading"
+  },
+  {
+    "claim": "Bill Gates claims pandemic's misery will happen regularly if climate change is not stopped",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "according to the ipcc's 2014 assessment report, \"mitigation is a public good; climate change is a case of the 'tragedy of the commons'.",
+    "evidence_label": "not_enough_info",
+    "article": "climate change mitigation"
+  },
+  {
+    "claim": "Human emissions upset the natural balance, rising CO2 to levels not seen in at least 800,000 years",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "these levels are much higher than at any time during the last 800,000 years, the period for which reliable data have been collected from ice cores.",
+    "evidence_label": "supports",
+    "article": "global warming"
+  },
+  {
+    "claim": "For example, we have a lower understanding of the effect of aerosols while we have a high understanding of the warming effect of carbon dioxide",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "in 2000, hansen advanced an alternative view of global warming over the last 100 years, arguing that during that time frame the negative forcing via aerosols and the positive forcing via carbon dioxide (co 2) largely balanced each other out, and that the 0.74\u00b10.18\u00a0\u00b0c net rise in average global temperatures could mostly be explained by greenhouse gases other than carbon dioxide, such as methane and chlorofluorocarbons.",
+    "evidence_label": "refutes",
+    "article": "james hansen"
+  },
+  {
+    "claim": "Individual carbon dioxide molecules have a short life time of around 5 years in the atmosphere",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "carbon dioxide in earth's atmosphere is a trace gas, currently (mid 2018) having a global average concentration of 409 parts per million by volume (or 622 parts per million by mass).",
+    "evidence_label": "not_enough_info",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "If the CO2 effect was saturated, adding more CO2 should add no additional greenhouse effect",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "other scientists were initially sceptical and believed the greenhouse effect to be saturated so that adding more co 2 would make no difference.",
+    "evidence_label": "supports",
+    "article": "global warming"
+  },
+  {
+    "claim": "In IPCC Third Assessment Report Chapter 2, the decline refers to northern tree-rings, not global temperature, and is openly discussed in papers and IPCC reports",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the implications of the decline are discussed in chapter 2 of the ipcc third assessment report, and in chapter 6 of the 2007 ipcc fourth assessment report (ar4) which describes discussion of various possible reasons for the divergence which does not affect all the trees, and says that there is no consensus about the cause.",
+    "evidence_label": "not_enough_info",
+    "article": "climatic research unit documents"
+  },
+  {
+    "claim": "Australia accounts for 1.5 per cent of global carbon emissions",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "\"australia's carbon dioxide emissions twice world rate\".",
+    "evidence_label": "not_enough_info",
+    "article": "australia"
+  },
+  {
+    "claim": "Maximum warming occurs over the surface during winter while less surface warming is found in summer when heat is being used to melt sea ice",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "in summer, the sea ice keeps the surface from warming above freezing.",
+    "evidence_label": "not_enough_info",
+    "article": "climate of the arctic"
+  },
+  {
+    "claim": "As a result, the planet as a whole is becoming less reflective and absorbing more sunlight, which is accelerating global warming",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "not only does this increase the absorption of sunlight, it also increases melting and sea level rise.",
+    "evidence_label": "supports",
+    "article": "global warming"
+  },
+  {
+    "claim": "A paper in Science magazine concludes that the climate sensitivity - how much the Earth's average temperature will rise as a result of a doubling of the atmospheric concentration of carbon dioxide - likely lies in the range 1.7°C to 2.6°C, with a median value of 2.3°C",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "the equilibrium climate sensitivity (ecs) is the temperature increase that would result from sustained doubling of the concentration of carbon dioxide in earth's atmosphere, after the earth's energy budget and the climate system reach radiative equilibrium.",
+    "evidence_label": "not_enough_info",
+    "article": "climate sensitivity"
+  },
+  {
+    "claim": "Given that a doubling of carbon dioxide would change the surface heat flux by only two watts per square meter, it is evident that a small change in cloud cover can strongly affect the response to carbon dioxide",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "a typical value of \u03bb, 0.8\u00a0k/(w/m2), gives an increase in global temperature of about 1.6 k above the 1750 reference temperature due to the increase in co 2 over that time (278 to 405 ppm, for a forcing of 2.0 w/m2), and predicts a further warming of 1.4 k above present temperatures if the co 2 mixing ratio in the atmosphere were to become double its pre-industrial value; both of these calculations assume no other forcings.",
+    "evidence_label": "not_enough_info",
+    "article": "radiative forcing"
+  },
+  {
+    "claim": "In 1990 the United Nation's Intergovernmental Panel on Climate Change predicted that temperatures would rise by 0.54F (0.3C) per decade",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "they predict that under a \"business as usual\" (bau) scenario, global mean temperature will increase by about 0.3\u00a0\u00b0c per decade during the [21st] century.",
+    "evidence_label": "supports",
+    "article": "intergovernmental panel on climate change"
+  },
+  {
+    "claim": "Dr Michael Mann's graph combined two datasets - tree-ring data for historical temperatures and thermometer measurements for recent decades",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "mann said, \"ten years ago, the availability of data became quite sparse by the time you got back to 1,000 ad, and what we had then was weighted towards tree-ring data; but now you can go back 1,300 years without using tree-ring data at all and still get a verifiable conclusion.\"",
+    "evidence_label": "supports",
+    "article": "hockey stick controversy"
+  },
+  {
+    "claim": "Subsidies for wind and solar add to emissions because coal-fired electricity needs to be on standby for when there is no wind or sunshine",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "the solar updraft tower (sut) is a renewable-energy power plant for generating electricity from low temperature solar heat.",
+    "evidence_label": "not_enough_info",
+    "article": "renewable energy commercialization"
+  },
+  {
+    "claim": "There is no empirical evidence that increasing greenhouse gases are the primary cause of global warming",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "in the scientific literature, there is an overwhelming consensus that global surface temperatures have increased in recent decades and that the trend is caused mainly by human-induced emissions of greenhouse gases.",
+    "evidence_label": "refutes",
+    "article": "global warming"
+  },
+  {
+    "claim": "Previous studies have shown that weakening carbon sinks will add 0.25°C, forest dieback will add 0.11°C, permafrost thaw will add 0.9°C and increased bacterial respiration will add 0.02°C",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the woods hole research center, citing two 2015 studies on permafrost carbon says there may be a self-reinforcing tipping point where an estimated equivalent of 205 gigatons of carbon dioxide in the form of methane could cause up to 0.5\u00a0\u00b0c (up to 0.9\u00a0\u00b0f) warming by the end of the century, which would trigger more warming.",
+    "evidence_label": "supports",
+    "article": "atmospheric methane"
+  },
+  {
+    "claim": "Current climate predictions may underestimate long-term warming by as much as a factor of two",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "climate model projections summarized in the report indicated that during the 21st century the global surface temperature is likely to rise a further 0.3 to 1.7\u00a0\u00b0c (0.5 to 3.1\u00a0\u00b0f) in a moderate scenario, or as much as 2.6 to 4.8\u00a0\u00b0c (4.7 to 8.6\u00a0\u00b0f) in an extreme scenario, depending on the rate of future greenhouse gas emissions and on climate feedback effects.",
+    "evidence_label": "supports",
+    "article": "global warming"
+  },
+  {
+    "claim": "Evidence is growing that the comparatively cold zone within the northern Atlantic could be due to a slowdown of this global ocean water circulation",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "the subpolar gyre forms an important part of the global thermohaline circulation.",
+    "evidence_label": "not_enough_info",
+    "article": "atlantic ocean"
+  },
+  {
+    "claim": "Warmer oceans have also begun to destabilize glaciers in Greenland and Antarctica",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "\"a tipping point in refreezing accelerates mass loss of greenland's glaciers and ice caps\".",
+    "evidence_label": "supports",
+    "article": "sea level rise"
+  },
+  {
+    "claim": "Drought in the western U.S. pales in comparison to the mega-droughts tree rings tell us existed in centuries past",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "drought apparently struck what is now the american southwest back in the 13th century, which probably affected the pueblo cities, and tree rings also document drought in the lower and central mississippi river basin between the 14th and 16th century.",
+    "evidence_label": "supports",
+    "article": "droughts in the united states"
+  },
+  {
+    "claim": "Severe storms, floods and agricultural losses may cost a great deal of money, but such extreme weather events and their resulting costs are dramatically declining as the Earth modestly warms",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "climate change caused by human activities that emit greenhouse gases into the air is expected to affect the frequency of extreme weather events such as drought, extreme temperatures, flooding, high winds, and severe storms.",
+    "evidence_label": "refutes",
+    "article": "weather"
+  },
+  {
+    "claim": "Increasing CO2 in the atmosphere has little to no effect",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "increases in atmospheric concentrations of co 2 and other long-lived greenhouse gases such as methane, nitrous oxide and ozone have correspondingly strengthened their absorption and emission of infrared radiation, causing the rise in average global temperature since the mid-20th century.",
+    "evidence_label": "refutes",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "Most glaciers are retreating, posing a serious problem for millions who rely on glaciers for water",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "in areas that are heavily dependent on water runoff from glaciers that melt during the warmer summer months, a continuation of the current retreat will eventually deplete the glacial ice and substantially reduce or eliminate runoff.",
+    "evidence_label": "supports",
+    "article": "retreat of glaciers since 1850"
+  },
+  {
+    "claim": "Scientists have determined that the factors which caused the Little Ice Age cooling are not currently causing global warming",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "scientists have determined that the major factors causing the current climate change are greenhouse gases, land use changes, and aerosols and soot.",
+    "evidence_label": "supports",
+    "article": "global warming"
+  },
+  {
+    "claim": "Weather and climate are different; climate predictions do not need weather detail",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "a humid continental climate is marked by variable weather patterns and a large seasonal temperature variance.",
+    "evidence_label": "refutes",
+    "article": "climate"
+  },
+  {
+    "claim": "The ocean is absorbing massive amounts of CO2, and is becoming more acidic as a result",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "with the production of co2 from the burning of fossil fuels, oceans are becoming more acidic since co2 dissolves in water and forms the acidic bicarbonate ion.",
+    "evidence_label": "supports",
+    "article": "ocean acidification"
+  },
+  {
+    "claim": "Benny Peiser, who criticized Naomi Oreskes' consensus study, retracted his criticism",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "peiser later admitted that it was a mistake to include one of the papers in his survey and said that his main criticism of oreskes' essay its \"claim of a unanimous consensus on anthropogenic global warming (apg) (as opposed to a majority consensus) is tenuous\" and that it still was valid.",
+    "evidence_label": "supports",
+    "article": "benny peiser"
+  },
+  {
+    "claim": "Natural cycles superimposed on a linear warming trend can be mistaken for step changes, but the underlying warming is caused by the external radiative forcing",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "this is due to the greenhouse effect, which is caused by greenhouse gases, which trap heat inside the earth's atmosphere because of their more complex molecular structure which allows them to vibrate and in turn trap heat and release it back towards the earth.",
+    "evidence_label": "not_enough_info",
+    "article": "natural environment"
+  },
+  {
+    "claim": "Every year air pollution protections are delayed, another 34,000 people will die prematurely",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "chernobyl: consequences of the catastrophe for people and the environment is a 2007 russian publication that concludes that there were 985,000\u00a0premature deaths as a consequence of the radioactivity released.",
+    "evidence_label": "supports",
+    "article": "chernobyl disaster"
+  },
+  {
+    "claim": "Global warming and climate change mean different things and have both been used for decades",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "in technical sources, the term climate change is also used to refer to past and future climate changes that persist for and extended period of time, and includes regional changes as well as global change.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming"
+  },
+  {
+    "claim": "The CO2 amplifies the warming and mixes through the atmosphere, spreading warming throughout the planet",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "absorption of infrared light at the vibrational frequencies of atmospheric carbon dioxide traps energy near the surface, warming the surface and the lower atmosphere.",
+    "evidence_label": "supports",
+    "article": "carbon dioxide"
+  },
+  {
+    "claim": "Twentieth century global warming did not start until 1910",
+    "veracity": false,
+    "label": "refutes",
+    "evidence": "from 1938 guy stewart callendar published evidence that climate was warming and co 2 levels increasing, but his calculations met the same objections.",
+    "evidence_label": "not_enough_info",
+    "article": "global warming"
+  },
+  {
+    "claim": "Even during a period of long term warming, there are short periods of cooling due to climate variability",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "this warming is short lived, as benthic oxygen isotope records indicate a return to cooling at ~40 million years ago.",
+    "evidence_label": "not_enough_info",
+    "article": "eocene"
+  },
+  {
+    "claim": "Satellites and on-site measurements are observing that Himalayan glaciers are disappearing at an accelerating rate",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "overall, glaciers in the greater himalayan region that have been studied are retreating an average of between 18 and 20\u00a0m (59 and 66\u00a0ft) annually.",
+    "evidence_label": "supports",
+    "article": "retreat of glaciers since 1850"
+  },
+  {
+    "claim": "Observed sea levels are actually tracking at the upper range of the IPCC projections",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "rahmstorf and coauthors showed concern that sea levels are rising at the high range of the ipcc projections, and that this was due to thermal expansion and not from melting of the greenland or antarctic ice sheets.",
+    "evidence_label": "supports",
+    "article": "james hansen"
+  },
+  {
+    "claim": "Livestock are responsible for 18 percent of the greenhouse gases that cause global warming, more than cars, planes and all other forms of transport put together",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "animal husbandry is also responsible for greenhouse gas production of co 2 and a percentage of the world's methane, and future land infertility, and the displacement of wildlife.",
+    "evidence_label": "supports",
+    "article": "agriculture"
+  },
+  {
+    "claim": "It appears, for the entire tropics, the observed outgoing radiation fluxes increase with the increase in sea surface temperatures (SSTs)",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "using isotope proxies to determine ocean temperatures indicates sea surface temperatures in the tropics as high as 35\u00a0\u00b0c (95\u00a0\u00b0f) and, relative to present-day values, bottom water temperatures that are 10\u00a0\u00b0c (18\u00a0\u00b0f) higher.",
+    "evidence_label": "not_enough_info",
+    "article": "eocene"
+  },
+  {
+    "claim": "Ice mass loss is occurring at an accelerated rate in Greenland, Antarctica and globally from inland glaciers",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "pine island glacier (pig) is a large ice stream, and the fastest melting glacier in antarctica, responsible for about 25% of antarctica's ice loss.",
+    "evidence_label": "supports",
+    "article": "pine island glacier"
+  },
+  {
+    "claim": "The long-term correlation between CO2 and temperature is well established",
+    "veracity": true,
+    "label": "disputed",
+    "evidence": "correlation of co 2 and temperature is not part of this evidence.",
+    "evidence_label": "refutes",
+    "article": "global warming controversy"
+  },
+  {
+    "claim": "Despite the logarithmic relationship between CO2 and surface temperatures, atmospheric CO2 levels are rising so fast that unless we dramatically decrease our emissions, global warming will accelerate over the 21st century",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "currently, surface temperatures are rising by about 0.2\u00a0\u00b0c per decade.",
+    "evidence_label": "supports",
+    "article": "global warming"
+  },
+  {
+    "claim": "The measurements of the amount of CO2 made at the Mauna Loa Observatory are accurate and uncontaminated by any emissions from the volcano",
+    "veracity": true,
+    "label": "supports",
+    "evidence": "according to the noaa, mauna loa is the world's oldest continuous co2 monitoring station, and the world's primary benchmark site for measurement of the gas.",
+    "evidence_label": "not_enough_info",
+    "article": "mauna loa observatory"
+  }
+]

@@ -1,0 +1,607 @@
+[
+  {
+    "claim": "One type of COVID-19 test identifies coronavirus proteins in thirty minutes",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Bats' biological ability to detect cytosolic DNA in the body helps them respond to and fight against viruses",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "A research team found 69 drugs that target the same proteins in our cells the novel coronavirus does",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Mask-wearers with clinical respiratory illness are less likely to infect others in their households who are not wearing masks",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "COVID-19 has been linked with cases of a similar rare condition in children called Kawasaki disease",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "High rates of anxiety, depression, and insomnia were found among medical workers who treated COVID-19 patients",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Men often have higher levels of antibodies than women once exposed to COVID-19",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "High levels of a cytokine called interleukin-6 (IL-6) are associated with respiratory failure and death in COVID-19 patients",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Drugs that block interleukin-6 activity can decrease likelihood of death among mechanically ventilated COVID-19 patients",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Pro-vaccine Facebook clusters are smaller in size than anti-vaccine clusters",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Children tend to be less susceptible to infection from COVID-19 than adults are",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Traditional, manual contact tracing is too slow to keep pace with the spread of the novel coronavirus",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Blood pressure drugs increase severity of COVID-19 cases",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "COVID-19 testing that can simultaneously screen patients for the novel coronavirus and its antibodies worsens diagnostic sensitivity",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Individuals with COVID-19 can transmit the virus by speaking normally in an enclosed space",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Computer modeling supports evidence implicating small, airborne droplets in multiple outbreaks of COVID-19",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Wearing a face mask does not reduce the likelihood that someone with coronavirus spreads it to another person",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Sunlight could help to reduce the amount of the novel coronavirus lingering on surfaces",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Synthetic interferons, a treatment option for a number of immune disorders, are inapplicable to the treatment of COVID-19",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Ferrets pass the novel coronavirus on to one another in a different way than humans do",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "The coronavirus can spread through the air in enclosed spaces",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "The transmission of SARS-CoV-2 is not related to the airflow direction within an indoor space",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Singing may result in increased transmission of COVID-19 due to the increased emission of aerosolized virus",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "COVID-19 patients typically are at high risk for delirium",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Men have been less likely than women to engage in coronavirus protective health behaviors",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Homemade cloth masks are less effective than proper surgical ones in blocking bacterial and viral aerosols",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Genetically, SARS-CoV-2 is dissimilar to coronaviruses found in pangolins",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Genetic sequencing indicates that the virus that causes COVID-19 is likely to have originated in bats",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Social distancing of at least 1 meter reduces COVID-19 transmission",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "COVID-19-positive patients who do not show symptoms are not contagious",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "People can spread the coronavirus before they started coughing and feeling achy",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "The novel coronavirus uses a different entry point into human cells as SARS does",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "There is a greater risk of catching COVID-19 indoors than there is risk of catching it outdoors",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "A small fraction of people who contract COVID-19 appear to be responsible for a disproportionately large number of subsequent infections",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Convalescent plasma therapy does not improve clinical results in patients suffering from COVID-19",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "The coronavirus can result in severe long-term neurological effects",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "There are approximately 1 in 4 incidences of venous thromboembolism in patients with severe novel coronavirus pneumonia symptoms of SARS-CoV-2",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Most children who contract COVID-19 display only mild symptoms while ill",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Some babies born to pregnant women with COVID-19 may contract the disease in the womb",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Individuals with blood type A are more susceptible to COVID-19 infection, compared with the other blood groups",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "The majority of coronaviruses have a winter seasonality",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "The coronavirus can be detected in the air up to 13 feet away from an infected patient",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Close monitoring of the reproduction number of COVID-19 is crucial to preventing a second wave of infections",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "SARS-CoV-2 cellular immunity was not found in the blood of COVID-19 patients once they became virus-free",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Convalescent plasma given to severe COVID-19 patients worsened their symptoms",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Hydroxychloroquine is consistently effective in improving the prognosis of patients hospitalized with COVID-19",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Horseshoe bats are the reservoir species for many SARS-like coronaviruses",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Flight, which is shared by all bats but no other mammals, has allowed bats to evolve mechanisms that protect them from viruses",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Research suggests that children are not likely to die from the coronavirus or to suffer a severe health consequence",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Hydroxychloroquine had no impact on the coronavirus recovery time of patients who were mildly ill",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "COVID-19 is equally transmissible via indoor and outdoor environments",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Men of color face higher risk of contracting COVID-19",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Even a year later there exists protection acquired with the immune response to a patient's first infection of COVID-19",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "A team of researchers at New York University's Langone Medical Center found that, out of 84 patients treated with the combination of hydroxychloroquine and azithromycin, 11 percent had QT prolongation beyond 500 milliseconds - the proven danger zone for sudden cardiac death",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Stealth transmissions play only a minor role in COVID-19's spread",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Only a third of hospitalized COVID-19 patients had a fever",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "There is no correlation between smoking and illness progression of covid-19",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "The majority of people with confirmed coronavirus were likely infected by people who didn't know they had it",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Cansino reported that their Phase 2 trials demonstrated that their adenovirus vectored coronavirus vaccine produced no detectable immune response",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Superspreading events can happen at call centers",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Disease-fighting antibodies, as well as immune cells called B cells and T cells that are capable of recognizing the virus, do not persist after the infections have resolved",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "The infectiousness of SARS-CoV-2 appears to peak within the first few days of the onset of COVID-19 symptoms and then decrease with time",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Researchers also found that people with Type O blood were slightly less likely to get COVID-19 than people with other blood types",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Black and Hispanic Americans are more likely to be affected by the COVID-19 pandemic, compared with white people",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Molnupiravir produced promising results against the new coronavirus in early studies in cells and on animals",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Infected individuals who don't feel ill may carry just as much coronavirus in their nose, throat and lungs as those with symptoms",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "People with obesity who caught the coronavirus were more than twice as likely to end up in the hospital",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Some patients hospitalized with COVID-19 had new-onset psychosis",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "A study of more than 130,000 people found that autoimmune conditions like Type 1 diabetes, psoriasis and rheumatoid arthritis increase the risk of respiratory complications and death from COVID-19",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Changes in coronavirus levels in wastewater preceded rises and falls in positive test results by a few days",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Cats can be infected by the novel coronavirus but are unlikely to get sick",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "An estimated 40 percent of people with COVID-19 infections never develop symptoms like fevers",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Heart muscle cell damage is not an associated condition among hospitalized COVID-19 patients",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "PCR tests can reliably detect, in just a few hours, as few as 100 copies of viral RNA in a milliliter of spit or snot",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Germicidal UV can effectively inactivate airborne microbes that transmit SARS-CoV",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Mothers infected with COVID-19 are likely to pass the infection to their newborns regardless of health precautions taken",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Global wildlife trade, particularly in exotic or endangered species has no impact on the risk of transmission of the coronavirus",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Adults who tested positive for the coronavirus were just as likely to have eaten at a restaurant in the two weeks before getting sick compared with people who were not infected",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "A stretch of DNA that decreases the risk of severe illness from COVID-19 was passed down from Neanderthals 60,000 years ago",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "COVID-19 does not have a humidity or temperature dependent niche",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Among women of reproductive age with COVID-19, nonpregnant women are more likely to be hospitalized in the ICU than pregnant women are",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Research from Chinese scientists indicates that it is unlikely that the virus causing COVID-19 was transmitted directly from pangolins to humans",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Individuals with mild symptoms of coronavirus can spread SARS-CoV-2 through the air",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "COVID-19's secondary attack rate has been found to be between about 10 to 20 percent",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Researchers have investigated the possibility of using drugs to target human proteins that interact with SARS-CoV-2, instead of just targeting the virus",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Pregnant women with coronavirus are at an increased risk of severe illness",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Recent scientific studies find no evidence of localized genetic susceptibility to respiratory failure in COVID-19 patients",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Chloroquine and hydroxychloroquine are not treatment options for COVID-19",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "COVID-19 patients who recently became virus-free had traces of SARS-CoV-2 cellular immunity in their blood",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Seriously ill COVID-19 patients who were treated with hydroxychloroquine and chloroquine were more likely to die",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Clofazimine fought off the SARS-CoV-2 in animals if they received it soon after being infected",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "There is not a supported link between Vitamin D concentration and the risk of COVID-19 infection",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Several studies have now shown that roughly 10 to 30 percent of hospitalized COVID-19 patients had high levels of troponin - a protein released into the blood when the heart's muscle cells are damaged",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Scientists have not been able to isolate infectious SARS-CoV-2 from urine in laboratory settings",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "More than half of U.S. adults have at least one condition that increases their risk of becoming seriously ill if infected with SARS-CoV-2",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "The SARS-CoV-2 virus particles found in infected patients' stools were highly infectious",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Hydroxychloroquine could reduce patients' chances of being put on a mechanical ventilator",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "The novel coronavirus can be transmitted by respiratory droplets in cats",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Talking can propel thousands of droplets so small they can remain suspended in the air for eight to 14 minutes",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "COVID-19 affects children and adults similarly",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "The presence of coronavirus in a community can be detected in its sewage",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Members of different bat species share living spaces in very large groups, allowing viruses to spread easily among them",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Female front-line workers treating patients with COVID-19 experienced higher rates or more severe symptoms of depression, anxiety, insomnia and distress than health-care workers overall",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "The novel coronavirus is the same species as the virus that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in China in 2002-2003",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Fluid simulations suggest existing toilets expel a large number of potentially virus-laden fecal particles when flushing",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "COVID-19 can be detected in the conjunctival secretions in coronavirus patients with pink eye",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Plasma therapy is a treatment that has been used against viral epidemics since the 1918 Spanish Flu",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Chronic conditions like obesity, high blood pressure, and diabetes are common risk factors for severe COVID-19",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "A study of air samples in two hospitals in Wuhan, China, found that coronavirus aerosols in isolation wards and ventilated patient rooms was very high, and it was lower in the toilet areas used by the patients",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Droplets containing the coronavirus were shown to be carried by the air conditioning",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "An mRNA vaccine candidate BNT162b1 against COVID-19 produced little increase in SARS-CoV-2 neutralizing agents in a Phase 1 study",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Observational studies suggest that eye protection had no impact on the transmission of COVID-19",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "Most patients who recover from the novel coronavirus will make antibodies",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "The highest rate of severe cases and deaths due to COVID-19 remains the elderly",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Children have a significantly high risk of complications related to coronavirus",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "People who have recovered from COVID-19 have powerful and protective killer immune cells in the months following infection",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Lockdown restrictions raised the risk of COVID-19 infection within households",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Tocilizumab reduced the death rates in severely ill coronavirus patients",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "Among health care workers, nurses in particular have little to no risk of contracting COVID-19",
+    "veracity": false,
+    "label": "refute"
+  },
+  {
+    "claim": "In a survey of individuals who had COVID-19 and illness lasting over 28 days (long COVID), 67 percent of those surveyed were either not working or working reduced hours due to their health conditions",
+    "veracity": true,
+    "label": "support"
+  },
+  {
+    "claim": "More antibodies in a particular batch of convalescent plasma had no effect in preventing COVID-19 related death",
+    "veracity": false,
+    "label": "refute"
+  }
+]
