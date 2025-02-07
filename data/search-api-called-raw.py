@@ -111,14 +111,48 @@
 # if __name__ == "__main__":
 #     asyncio.run(main())
 
+import pandas as pd
+
+def extract_untrusted_domains(csv_path, min_score=10, max_score=30):
+    """
+    Extract domains from NewsGuard CSV that are rated as untrusted ('N') 
+    within a specified score range.
+    
+    Args:
+        csv_path (str): Path to the NewsGuard CSV file
+        min_score (int): Minimum score threshold (default: 10)
+        max_score (int): Maximum score threshold (default: 30)
+    
+    Returns:
+        list: List of domain names meeting the criteria
+    """
+    # Read the CSV
+    df = pd.read_csv(csv_path)
+    
+    # Filter domains: Rating 'N' and scores within range
+    filtered_domains = df[
+        (df['Rating'] == 'N') & 
+        (df['Score'] >= min_score) & 
+        (df['Score'] <= max_score)
+    ][['Domain', 'Score']].sort_values('Score')
+    
+    # Remove duplicates (keeping first occurrence which will have lowest score)
+    filtered_domains = filtered_domains.drop_duplicates('Domain')
+    
+    # Convert to list
+    return filtered_domains['Domain'].tolist()
+
+# Example usage:
+domains = extract_untrusted_domains("label-full-metadata-20241219.csv")
+
 
 import os
 from typing import Dict, Any
 from tavily import TavilyClient
 
 class NewsSearch:
-    # Priority domains for alternative news sources
-    PRIORITY_DOMAINS = [
+
+    fake_news_domains_wiki = [
         "naturalnews.com", "healthimpactnews.com", "greenmedinfo.com", "mercola.com",
         "healthnutnews.com", "realfarmacy.com", "healthyholisticliving.com", "newstarget.com",
         "featureremedies.com", "medicalkidnap.com", "infowars.com", "wnd.com",
@@ -140,6 +174,8 @@ class NewsSearch:
         "foxnews-us.com", "nbcnews11.com", "tmzbreaking.com", "viralspeech.com",
         "politicsfocus.com", "chicksonright.com", "climatedepot.com", "dailywire.com"
     ]
+    
+    fake_news_domains_newsguard = extract_untrusted_domains("label-full-metadata-20241219.csv")
 
     def __init__(self, api_key: str = None):
         """Initialize with Tavily API key from environment variable or parameter."""
@@ -177,7 +213,7 @@ def print_results(results: Dict[str, Any]) -> None:
 
 def main():
     # Initialize search
-    searcher = NewsSearch()
+    searcher = NewsSearch(api_key="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")
     
     # Your search query
     query = "Ultraviolet light is associated with higher covid-19 growth rates"
