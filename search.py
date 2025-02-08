@@ -7,7 +7,8 @@ from tqdm import tqdm
 import random
 from domains import fake_news_domains_newsguard, fake_news_domains_wiki
 
-FAKE_NEWS_DOMAINS = random.sample(fake_news_domains_newsguard + fake_news_domains_wiki, 200)
+# FAKE_NEWS_DOMAINS = random.sample(fake_news_domains_newsguard + fake_news_domains_wiki, 200)
+FAKE_NEWS_DOMAINS = fake_news_domains_newsguard + fake_news_domains_wiki
 
 class NewsSearch:
 
@@ -62,23 +63,23 @@ def enrich_claim_with_sources(searcher: NewsSearch, claim: str, max_sources: int
         f"research {claim}"
     ]
     
-    for query in search_variations:
-        if len(supporting_sources) >= max_sources:
-            break
+    # for query in search_variations:
+    #     if len(supporting_sources) >= max_sources:
+    #         break
             
-        results = searcher.search(query, include_domains=None)
+    #     results = searcher.search(query, include_domains=None)
         
-        # Add new unique results
-        for result in results["results"]:
-            if result["url"] not in seen_supporting_urls and len(supporting_sources) < max_sources:
-                supporting_sources.append({
-                    "title": result["title"],
-                    "url": result["url"],
-                    "content": result["content"]
-                })
-                seen_supporting_urls.add(result["url"])
-                print(f"Added supporting source: {result['url']}")
-    print(f"Found {len(supporting_sources)} supporting sources")    
+    #     # Add new unique results
+    #     for result in results["results"]:
+    #         if result["url"] not in seen_supporting_urls and len(supporting_sources) < max_sources:
+    #             supporting_sources.append({
+    #                 "title": result["title"],
+    #                 "url": result["url"],
+    #                 "content": result["content"]
+    #             })
+    #             seen_supporting_urls.add(result["url"])
+    #             print(f"Added supporting source: {result['url']}")
+    # print(f"Found {len(supporting_sources)} supporting sources")    
     
     # Collect opposing sources through multiple searches
     opposing_sources = []
@@ -89,6 +90,7 @@ def enrich_claim_with_sources(searcher: NewsSearch, claim: str, max_sources: int
         # Take next batch of domains to try
         current_domains = domains_to_try[:200]
         domains_to_try = domains_to_try[200:]
+        print(len(domains_to_try))
         
         # Search potentially misleading sources
         misinfo_results = searcher.search(claim, include_domains=current_domains)
@@ -112,6 +114,7 @@ def enrich_claim_with_sources(searcher: NewsSearch, claim: str, max_sources: int
         "supporting_sources": supporting_sources,
         "opposing_sources": opposing_sources
     }
+
 
 def enrich_data(input_file: str, output_file: str, api_key: str = None, max_sources: int = 40):
     """
