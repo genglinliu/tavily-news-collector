@@ -1,6 +1,6 @@
 import pandas as pd
 
-def extract_untrusted_domains(csv_path, min_score=5, max_score=6):
+def extract_untrusted_domains(csv_path, min_score=0, max_score=50):
     """
     Extract domains from NewsGuard CSV that are rated as untrusted ('N') 
     within a specified score range.
@@ -20,7 +20,9 @@ def extract_untrusted_domains(csv_path, min_score=5, max_score=6):
     filtered_domains = df[
         (df['Rating'] == 'N') & 
         (df['Score'] >= min_score) & 
-        (df['Score'] <= max_score)
+        (df['Score'] <= max_score) &
+        (df['Country'] == 'US') &
+        (df['Language'] == 'en')
     ][['Domain', 'Score']].sort_values('Score')
     
     # Remove duplicates (keeping first occurrence which will have lowest score)
@@ -30,6 +32,6 @@ def extract_untrusted_domains(csv_path, min_score=5, max_score=6):
     return filtered_domains['Domain'].tolist()
 
 # Example usage:
-domains = extract_untrusted_domains("label-full-metadata-20241219.csv")
+domains = extract_untrusted_domains("NewsGuard/label-full-metadata-20241219.csv")
 print(f"Found {len(domains)} domains")
 print(domains)
