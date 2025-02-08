@@ -7,8 +7,8 @@ from tqdm import tqdm
 import random
 from domains import fake_news_domains_newsguard, fake_news_domains_wiki
 
-# FAKE_NEWS_DOMAINS = random.sample(fake_news_domains_newsguard + fake_news_domains_wiki, 200)
-FAKE_NEWS_DOMAINS = fake_news_domains_newsguard + fake_news_domains_wiki
+FAKE_NEWS_DOMAINS = random.sample(fake_news_domains_newsguard + fake_news_domains_wiki, 600)
+# FAKE_NEWS_DOMAINS = fake_news_domains_newsguard + fake_news_domains_wiki
 
 class NewsSearch:
 
@@ -35,129 +35,143 @@ class NewsSearch:
             include_domains=include_domains,
             max_results=20,
             search_depth="advanced",  # Get detailed content and analysis
-            include_raw_content=True,
+            include_answer=True
         )
 
 
-def enrich_claim_with_sources(searcher: NewsSearch, claim: str, max_sources: int = 40) -> Dict[str, Any]:
+def enrich_claim_with_sources(searcher: NewsSearch, claim: str, output_file: str, item: dict, max_sources: int = 40):
     """
-    Enrich a claim with supporting and opposing sources by performing searches.
+    Enrich a claim with supporting and opposing sources by performing searches and append to output file immediately.
     
     Args:
         searcher: NewsSearch instance
         claim: The claim to search for
+        output_file: Path to output file to append results
+        item: The full item dictionary containing the claim
         max_sources: Maximum number of sources to collect for each category (default: 40)
-        
-    Returns:
-        Dict containing supporting_sources and opposing_sources (up to max_sources each)
     """
-    # Collect supporting sources through multiple searches
-    supporting_sources = []
+    item.update({
+        "supporting_sources": [],
+        "opposing_sources": []
+    })
+    
     seen_supporting_urls = set()
+    seen_opposing_urls = set()
     
     # Try a few different search variations to get more diverse results
     search_variations = [
         claim,
-        f"fact check {claim}",
-        f"evidence {claim}",
-        f"research {claim}"
+        f"Help me find content regarding this claim: {claim}",
+        f"Find sources about this claim: {claim}",
+        f"Research the claim: {claim}"
     ]
     
-    # for query in search_variations:
-    #     if len(supporting_sources) >= max_sources:
-    #         break
+    for query in search_variations:
+        if len(item["supporting_sources"]) >= max_sources:
+            break
             
-    #     results = searcher.search(query, include_domains=None)
+        results = searcher.search(query, include_domains=None)
         
-    #     # Add new unique results
-    #     for result in results["results"]:
-    #         if result["url"] not in seen_supporting_urls and len(supporting_sources) < max_sources:
-    #             supporting_sources.append({
-    #                 "title": result["title"],
-    #                 "url": result["url"],
-    #                 "content": result["content"]
-    #             })
-    #             seen_supporting_urls.add(result["url"])
-    #             print(f"Added supporting source: {result['url']}")
-    # print(f"Found {len(supporting_sources)} supporting sources")    
+        # Add new unique results
+        for result in results["results"]:
+            if result["url"] not in seen_supporting_urls and len(item["supporting_sources"]) < max_sources:
+                source = {
+                    "title": result["title"],
+                    "url": result["url"],
+                    "content": result["content"],
+                }
+                item["supporting_sources"].append(source)
+                seen_supporting_urls.add(result["url"])
+                print(f"Added supporting source: {result['url']}")
+                
+                # Append to file after each new source
+                with open(output_file, 'r+') as f:
+                    data = json.load(f)
+                    f.seek(0)
+                    json.dump(data[:-1] + [item], f, indent=4)
+    
+    print(f"Found {len(item['supporting_sources'])} supporting sources")    
     
     # Collect opposing sources through multiple searches
-    opposing_sources = []
-    seen_opposing_urls = set()
     domains_to_try = FAKE_NEWS_DOMAINS.copy()
     
-    while len(opposing_sources) < max_sources and domains_to_try:
-        # Take next batch of domains to try
+    while len(item["opposing_sources"]) < max_sources and domains_to_try:
         current_domains = domains_to_try[:200]
         domains_to_try = domains_to_try[200:]
         print(len(domains_to_try))
         
-        # Search potentially misleading sources
         misinfo_results = searcher.search(claim, include_domains=current_domains)
         
-        # Add new unique results
         for result in misinfo_results["results"]:
-            if result["url"] not in seen_opposing_urls and len(opposing_sources) < max_sources:
-                opposing_sources.append({
+            if result["url"] not in seen_opposing_urls and len(item["opposing_sources"]) < max_sources:
+                source = {
                     "title": result["title"],
                     "url": result["url"],
-                    "content": result["content"]
-                })
+                    "content": result["content"],
+                }
+                item["opposing_sources"].append(source)
                 seen_opposing_urls.add(result["url"])
                 print(f"Added opposing source: {result['url']}")
-            
+                
+                # Append to file after each new source
+                with open(output_file, 'r+') as f:
+                    data = json.load(f)
+                    f.seek(0)
+                    json.dump(data[:-1] + [item], f, indent=4)
+                
         print(f"Found {len(misinfo_results['results'])} opposing sources, trying again")
                 
-    print(f"Found {len(opposing_sources)} opposing sources")
-    
-    return {
-        "supporting_sources": supporting_sources,
-        "opposing_sources": opposing_sources
-    }
-
+    print(f"Found {len(item['opposing_sources'])} opposing sources")
 
 def enrich_data(input_file: str, output_file: str, api_key: str = None, max_sources: int = 40):
     """
     Read COVID data, enrich with sources, and append to output file as we go.
-    
-    Args:
-        input_file: Path to input JSON file
-        output_file: Path to output JSON file
-        api_key: Optional Tavily API key
+    Skip claims that have already been processed in the output file.
     """
-    # Initialize search
     searcher = NewsSearch(api_key=api_key)
     
-    # Read input data
     with open(input_file, 'r') as f:
         data = json.load(f)
         
     data = data[:50]
     
-    # Create/clear output file with empty array
-    with open(output_file, 'w') as f:
-        f.write('[\n')
-    
-    # Process each claim and append to file
-    for i, item in enumerate(tqdm(data)):
+    processed_claims = set()
+    if os.path.exists(output_file):
         try:
-            sources = enrich_claim_with_sources(searcher, item["claim"], max_sources=max_sources)
-            item.update(sources)
+            with open(output_file, 'r') as f:
+                existing_data = json.load(f)
+                processed_claims = {item['claim'] for item in existing_data}
+        except json.JSONDecodeError:
+            existing_data = []
+            # Create new file with empty array
+            with open(output_file, 'w') as f:
+                json.dump([], f)
+    else:
+        existing_data = []
+        # Create new file with empty array
+        with open(output_file, 'w') as f:
+            json.dump([], f)
+    
+    items_to_process = [item for item in data if item['claim'] not in processed_claims]
+    print(f"Found {len(existing_data)} existing processed claims")
+    print(f"Processing {len(items_to_process)} new claims")
+    
+    for item in tqdm(items_to_process):
+        try:
+            # Add empty item to output file first
+            with open(output_file, 'r+') as f:
+                data = json.load(f)
+                data.append(item)
+                f.seek(0)
+                json.dump(data, f, indent=4)
             
-            # Append to file with proper JSON formatting
-            with open(output_file, 'a') as f:
-                if i > 0:
-                    f.write(',\n')
-                json.dump(item, f, indent=4)
-                
+            # Now enrich it with sources
+            enrich_claim_with_sources(searcher, item["claim"], output_file, item, max_sources=max_sources)
+            
         except Exception as e:
             print(f"\nError processing claim: {item['claim']}")
             print(f"Error: {str(e)}")
             raise e
-    
-    # Close the JSON array
-    with open(output_file, 'a') as f:
-        f.write('\n]')
     
     print("\nCompleted processing all items")
 
@@ -165,9 +179,9 @@ if __name__ == "__main__":
     # Example usage
     input_file_climate = "data/final-data/final_climate_data.json"
     input_file_covid = "data/final-data/final_covid_data.json"
-    output_file_climate = "data/final-data/enriched_climate_data_40.json"
-    output_file_covid = "data/final-data/enriched_covid_data_40.json"
+    output_file_climate = "data/final-data/enriched_climate_data_30.json"
+    output_file_covid = "data/final-data/enriched_covid_data_30.json"
     api_key = "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"
     
-    enrich_data(input_file_climate, output_file_climate, api_key, max_sources=40)
-    enrich_data(input_file_covid, output_file_covid, api_key, max_sources=40)
+    enrich_data(input_file_climate, output_file_climate, api_key, max_sources=30)
+    enrich_data(input_file_covid, output_file_covid, api_key, max_sources=30)
