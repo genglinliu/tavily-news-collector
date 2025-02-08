@@ -1,0 +1,1 @@
+all you gotta do is run the `search.py` file with the right api key and it will create the enriched data (original claims with sources) files in the `data/final-data` folder.
