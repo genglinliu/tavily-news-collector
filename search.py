@@ -6,7 +6,7 @@ import json
 from tqdm import tqdm
 import random
 from domains import fake_news_domains_newsguard, fake_news_domains_wiki
-
+from tenacity import retry, stop_after_attempt, wait_exponential
 FAKE_NEWS_DOMAINS = random.sample(fake_news_domains_newsguard + fake_news_domains_wiki, 600)
 # FAKE_NEWS_DOMAINS = fake_news_domains_newsguard + fake_news_domains_wiki
 
@@ -21,6 +21,7 @@ class NewsSearch:
             raise ValueError("Please provide TAVILY_API_KEY as environment variable or parameter")
         self.client = TavilyClient(api_key=self.api_key)
 
+    @retry(stop=stop_after_attempt(1000), wait=wait_exponential(multiplier=1, min=4, max=15))
     def search(self, query: str, include_domains: list[str] = None) -> Dict[str, Any]:
         """
         Perform a search prioritizing specific domains.
@@ -137,7 +138,7 @@ def enrich_data(input_file: str, output_file: str, api_key: str = None):
     with open(input_file, 'r') as f:
         data = json.load(f)
         
-    data = data[:50]
+    # data = data[:50]
     
     # Check for existing claims in output file
     processed_claims = set()
