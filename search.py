@@ -10,6 +10,8 @@ from domains import fake_news_domains_newsguard, fake_news_domains_wiki
 FAKE_NEWS_DOMAINS = random.sample(fake_news_domains_newsguard + fake_news_domains_wiki, 600)
 # FAKE_NEWS_DOMAINS = fake_news_domains_newsguard + fake_news_domains_wiki
 
+MAX_SOURCES = 15
+
 class NewsSearch:
 
     def __init__(self, api_key: str = None):
@@ -35,11 +37,12 @@ class NewsSearch:
             include_domains=include_domains,
             max_results=20,
             search_depth="advanced",  # Get detailed content and analysis
-            include_answer=True
+            include_answer=True,
+            include_raw_content=True,
         )
 
 
-def enrich_claim_with_sources(searcher: NewsSearch, claim: str, output_file: str, item: dict, max_sources: int = 40):
+def enrich_claim_with_sources(searcher: NewsSearch, claim: str, output_file: str, item: dict):
     """
     Enrich a claim with supporting and opposing sources by performing searches and append to output file immediately.
     
@@ -48,7 +51,6 @@ def enrich_claim_with_sources(searcher: NewsSearch, claim: str, output_file: str
         claim: The claim to search for
         output_file: Path to output file to append results
         item: The full item dictionary containing the claim
-        max_sources: Maximum number of sources to collect for each category (default: 40)
     """
     item.update({
         "supporting_sources": [],
@@ -67,18 +69,19 @@ def enrich_claim_with_sources(searcher: NewsSearch, claim: str, output_file: str
     ]
     
     for query in search_variations:
-        if len(item["supporting_sources"]) >= max_sources:
+        if len(item["supporting_sources"]) >= MAX_SOURCES:
             break
             
         results = searcher.search(query, include_domains=None)
         
         # Add new unique results
         for result in results["results"]:
-            if result["url"] not in seen_supporting_urls and len(item["supporting_sources"]) < max_sources:
+            if result["url"] not in seen_supporting_urls and len(item["supporting_sources"]) < MAX_SOURCES:
                 source = {
                     "title": result["title"],
                     "url": result["url"],
                     "content": result["content"],
+                    "raw_content": result["raw_content"]
                 }
                 item["supporting_sources"].append(source)
                 seen_supporting_urls.add(result["url"])
@@ -95,7 +98,7 @@ def enrich_claim_with_sources(searcher: NewsSearch, claim: str, output_file: str
     # Collect opposing sources through multiple searches
     domains_to_try = FAKE_NEWS_DOMAINS.copy()
     
-    while len(item["opposing_sources"]) < max_sources and domains_to_try:
+    while len(item["opposing_sources"]) < MAX_SOURCES and domains_to_try:
         current_domains = domains_to_try[:200]
         domains_to_try = domains_to_try[200:]
         print(len(domains_to_try))
@@ -103,11 +106,12 @@ def enrich_claim_with_sources(searcher: NewsSearch, claim: str, output_file: str
         misinfo_results = searcher.search(claim, include_domains=current_domains)
         
         for result in misinfo_results["results"]:
-            if result["url"] not in seen_opposing_urls and len(item["opposing_sources"]) < max_sources:
+            if result["url"] not in seen_opposing_urls and len(item["opposing_sources"]) < MAX_SOURCES:
                 source = {
                     "title": result["title"],
                     "url": result["url"],
                     "content": result["content"],
+                    "raw_content": result["raw_content"]
                 }
                 item["opposing_sources"].append(source)
                 seen_opposing_urls.add(result["url"])
@@ -123,7 +127,7 @@ def enrich_claim_with_sources(searcher: NewsSearch, claim: str, output_file: str
                 
     print(f"Found {len(item['opposing_sources'])} opposing sources")
 
-def enrich_data(input_file: str, output_file: str, api_key: str = None, max_sources: int = 40):
+def enrich_data(input_file: str, output_file: str, api_key: str = None):
     """
     Read COVID data, enrich with sources, and append to output file as we go.
     Skip claims that have already been processed in the output file.
@@ -135,6 +139,7 @@ def enrich_data(input_file: str, output_file: str, api_key: str = None, max_sour
         
     data = data[:50]
     
+    # Check for existing claims in output file
     processed_claims = set()
     if os.path.exists(output_file):
         try:
@@ -152,6 +157,7 @@ def enrich_data(input_file: str, output_file: str, api_key: str = None, max_sour
         with open(output_file, 'w') as f:
             json.dump([], f)
     
+    # Filter out claims that have already been processed
     items_to_process = [item for item in data if item['claim'] not in processed_claims]
     print(f"Found {len(existing_data)} existing processed claims")
     print(f"Processing {len(items_to_process)} new claims")
@@ -166,7 +172,7 @@ def enrich_data(input_file: str, output_file: str, api_key: str = None, max_sour
                 json.dump(data, f, indent=4)
             
             # Now enrich it with sources
-            enrich_claim_with_sources(searcher, item["claim"], output_file, item, max_sources=max_sources)
+            enrich_claim_with_sources(searcher, item["claim"], output_file, item)
             
         except Exception as e:
             print(f"\nError processing claim: {item['claim']}")
@@ -179,9 +185,10 @@ if __name__ == "__main__":
     # Example usage
     input_file_climate = "data/final-data/final_climate_data.json"
     input_file_covid = "data/final-data/final_covid_data.json"
-    output_file_climate = "data/final-data/enriched_climate_data_30.json"
-    output_file_covid = "data/final-data/enriched_covid_data_30.json"
-    api_key = "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"
+    output_file_climate = "data/final-data/enriched_climate_data_15.json"
+    output_file_covid = "data/final-data/enriched_covid_data_15.json"
+    # api_key = "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"
+    api_key = "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"
     
-    enrich_data(input_file_climate, output_file_climate, api_key, max_sources=30)
-    enrich_data(input_file_covid, output_file_covid, api_key, max_sources=30)
+    enrich_data(input_file_climate, output_file_climate, api_key)
+    enrich_data(input_file_covid, output_file_covid, api_key)
