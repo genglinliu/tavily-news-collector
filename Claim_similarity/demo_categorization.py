@@ -21,21 +21,14 @@ COVID_QUESTIONS = [
     "Do you think stay-at-home measures helped prevent the spread of COVID-19?"
 ]
 
-# Sample climate claims
-CLIMATE_CLAIMS = [
-    "Climate change is due to cosmic rays",
-    "That human CO2 is causing global warming is known with high certainty & confirmed by observations",
-    "Global warming is causing more hurricanes and stronger hurricanes",
-    "Scientists are exaggerating the impacts of climate change to secure more funding"
-]
-
-# Sample COVID claims (hypothetical examples)
-COVID_CLAIMS = [
-    "COVID-19 was engineered in a lab in Wuhan, China",
-    "COVID-19 vaccines have dangerous side effects and were rushed to market without proper testing",
-    "Masks are ineffective at preventing the spread of COVID-19 and may actually be harmful",
-    "Lockdowns caused more harm than good and had minimal impact on reducing COVID-19 transmission"
-]
+def load_claims_from_jsonl(file_path):
+    """Load claims from a JSONL file"""
+    claims = []
+    with open(file_path, 'r') as f:
+        for line in f:
+            data = json.loads(line)
+            claims.append(data["claim"])
+    return claims
 
 def categorize_claims(claims, questions):
     """Categorize claims by their semantic similarity to questions, distributing evenly"""
@@ -107,11 +100,18 @@ def categorize_claims(claims, questions):
     return results
 
 def main():
+    # Load claims from JSONL files
+    print("Loading claims from files...")
+    climate_claims = load_claims_from_jsonl("claims_climate.jsonl")
+    covid_claims = load_claims_from_jsonl("claims_covid.jsonl")
+    
+    print(f"Loaded {len(climate_claims)} climate claims and {len(covid_claims)} COVID claims")
+    
     print("\n=== CLIMATE CLAIMS CATEGORIZATION ===")
-    climate_results = categorize_claims(CLIMATE_CLAIMS, CLIMATE_QUESTIONS)
+    climate_results = categorize_claims(climate_claims, CLIMATE_QUESTIONS)
     
     print("\n=== COVID-19 CLAIMS CATEGORIZATION ===")
-    covid_results = categorize_claims(COVID_CLAIMS, COVID_QUESTIONS)
+    covid_results = categorize_claims(covid_claims, COVID_QUESTIONS)
     
     # Save results
     with open('demo_results.json', 'w') as f:

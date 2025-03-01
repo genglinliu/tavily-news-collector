@@ -1,0 +1,1238 @@
+{
+  "climate": {
+    "Do you believe climate change is real?": [
+      {
+        "claim": "Over 97 percent of the scientific community believe that humans are contributing to climate change",
+        "similarity_score": 0.6186529397964478
+      },
+      {
+        "claim": "Theory, models and direct measurement confirm CO2 is currently the main driver of climate change",
+        "similarity_score": 0.5539752244949341
+      },
+      {
+        "claim": "There is no empirical evidence that increasing greenhouse gases are the primary cause of global warming",
+        "similarity_score": 0.5428494811058044
+      },
+      {
+        "claim": "97% consensus on human-caused global warming has been disproven",
+        "similarity_score": 0.5410083532333374
+      },
+      {
+        "claim": "While there are uncertainties with climate models, they successfully reproduce the past and have made predictions that have been subsequently confirmed by observations",
+        "similarity_score": 0.5252834558486938
+      },
+      {
+        "claim": "Climate change is due to cosmic rays",
+        "similarity_score": 0.5172279477119446
+      },
+      {
+        "claim": "Climate skeptics argue temperature records have been adjusted in recent years to make the past appear cooler and the present warmer, although the Carbon Brief showed that NOAA has actually made the past warmer, evening out the difference",
+        "similarity_score": 0.5162813663482666
+      },
+      {
+        "claim": "That human CO2 is causing global warming is known with high certainty & confirmed by observations",
+        "similarity_score": 0.5148712396621704
+      },
+      {
+        "claim": "Once natural influences, in particular the impact of El Ni\u00f1o and La Ni\u00f1a, are removed from the recent temperature record, there is no evidence of a significant change in the human contribution to climate change",
+        "similarity_score": 0.5112067461013794
+      },
+      {
+        "claim": "Scientific analysis of past climates shows that greenhouse gasses, principally CO2, have controlled most ancient climate changes",
+        "similarity_score": 0.5025918483734131
+      },
+      {
+        "claim": "Global warming and climate change mean different things and have both been used for decades",
+        "similarity_score": 0.49300578236579895
+      },
+      {
+        "claim": "Global warming is increasing the magnitude and frequency of droughts and floods",
+        "similarity_score": 0.48580309748649597
+      },
+      {
+        "claim": "Global warming is increasing the risk of heatwaves",
+        "similarity_score": 0.48376184701919556
+      },
+      {
+        "claim": "Bill Gates claims pandemic's misery will happen regularly if climate change is not stopped",
+        "similarity_score": 0.4766656160354614
+      },
+      {
+        "claim": "A paper by Ross McKitrick, an economics professor at the University of Guelph, and Patrick Michaels, an environmental studies professor at the University of Virginia, concludes that half of the global warming trend from 1980 to 2002 is caused by urban heat island",
+        "similarity_score": 0.4750984311103821
+      },
+      {
+        "claim": "The minute increase of anthropogenic CO2 in the atmosphere (0.008%) was not the cause of the warming - it was a continuation of natural cycles that occurred over the past 500 years",
+        "similarity_score": 0.4725114107131958
+      },
+      {
+        "claim": "Actual weather records over the past 100 years show no correlation between rising carbon dioxide levels and local temperatures",
+        "similarity_score": 0.4703827500343323
+      },
+      {
+        "claim": "Carbon dioxide is not \"a primary contributor to the global warming that we see.\"",
+        "similarity_score": 0.4703287184238434
+      },
+      {
+        "claim": "The IPCC 95% confidence that humans are responsible for most of the current global warming is simply a summary of the peer-reviewed scientific research",
+        "similarity_score": 0.46888285875320435
+      },
+      {
+        "claim": "A large number of ancient mass extinction events have been strongly linked to global climate change",
+        "similarity_score": 0.4672622084617615
+      },
+      {
+        "claim": "Despite the logarithmic relationship between CO2 and surface temperatures, atmospheric CO2 levels are rising so fast that unless we dramatically decrease our emissions, global warming will accelerate over the 21st century",
+        "similarity_score": 0.46703535318374634
+      },
+      {
+        "claim": "Scientists have determined that the factors which caused the Little Ice Age cooling are not currently causing global warming",
+        "similarity_score": 0.46569496393203735
+      },
+      {
+        "claim": "A natural cycle requires a forcing, and no known forcing exists that fits the fingerprints of observed warming - except anthropogenic greenhouse gases",
+        "similarity_score": 0.46251359581947327
+      },
+      {
+        "claim": "The warming is extremely rapid on the geologic time scale, and no other factor can explain it as well as human emissions of greenhouse gases",
+        "similarity_score": 0.4622034430503845
+      },
+      {
+        "claim": "Natural cycles superimposed on a linear warming trend can be mistaken for step changes, but the underlying warming is caused by the external radiative forcing",
+        "similarity_score": 0.45390480756759644
+      },
+      {
+        "claim": "Disasters cost more than ever - but not because of climate change",
+        "similarity_score": 0.4537120461463928
+      },
+      {
+        "claim": "Rising CO2 increases atmospheric water vapor, which makes global warming much worse",
+        "similarity_score": 0.44732093811035156
+      },
+      {
+        "claim": "Global warming is causing more hurricanes and stronger hurricanes",
+        "similarity_score": 0.4461395740509033
+      },
+      {
+        "claim": "Far from contradicting global warming, record snowfall is predicted by climate models and consistent with our expectation of more extreme precipitation events",
+        "similarity_score": 0.4424057602882385
+      },
+      {
+        "claim": "Greenhouse gases have been the main contributor of warming since 1970",
+        "similarity_score": 0.43780094385147095
+      },
+      {
+        "claim": "Antarctic ice fluctuates wildly year to year, and the link to man-made global warming there is not clear, NASA ice expert Walt Meier said",
+        "similarity_score": 0.43765175342559814
+      },
+      {
+        "claim": "Early 20th century warming is due to several causes, including rising CO2",
+        "similarity_score": 0.43663910031318665
+      },
+      {
+        "claim": "Volcanoes, solar variations, clouds, methane, aerosols - these all change the way energy enters and/or leaves our climate",
+        "similarity_score": 0.4355228543281555
+      },
+      {
+        "claim": "It is unclear whether global warming is increasing hurricane frequency but there is increasing evidence that warming increases hurricane intensity",
+        "similarity_score": 0.43159157037734985
+      },
+      {
+        "claim": "As a result, the planet as a whole is becoming less reflective and absorbing more sunlight, which is accelerating global warming",
+        "similarity_score": 0.4277905225753784
+      },
+      {
+        "claim": "The geologic record provides us with abundant evidence for such perpetual natural climate variability, from icecaps reaching almost to the equator to none at all, even at the poles",
+        "similarity_score": 0.42703211307525635
+      },
+      {
+        "claim": "That humans are causing the rise in atmospheric CO2 is confirmed by multiple isotopic analyses",
+        "similarity_score": 0.4266365170478821
+      },
+      {
+        "claim": "In 1990 the United Nation's Intergovernmental Panel on Climate Change predicted that temperatures would rise by 0.54F (0.3C) per decade",
+        "similarity_score": 0.4225025177001953
+      },
+      {
+        "claim": "The human fingerprint in global warming is evident in multiple lines of empirical evidence - in satellite measurements of outgoing infrared radiation, in surface measurements of downward infrared radiation, in the cooling stratosphere and other metrics",
+        "similarity_score": 0.42158275842666626
+      },
+      {
+        "claim": "The long term warming trend indicates the total energy in the Earth's climate system is increasing due to an energy imbalance",
+        "similarity_score": 0.4213554859161377
+      },
+      {
+        "claim": "Water vapour has been the main greenhouse gas and carbon dioxide has had a minuscule effect on global climate",
+        "similarity_score": 0.4195728302001953
+      },
+      {
+        "claim": "Twentieth century global warming did not start until 1910",
+        "similarity_score": 0.4192464351654053
+      },
+      {
+        "claim": "Eleven percent of all global greenhouse gas emissions caused by humans are caused by deforestation - comparable to the emissions from all of the cars and trucks on the planet",
+        "similarity_score": 0.4130250811576843
+      },
+      {
+        "claim": "Current climate predictions may underestimate long-term warming by as much as a factor of two",
+        "similarity_score": 0.410950630903244
+      },
+      {
+        "claim": "An article in Science magazine illustrated that a rise in carbon dioxide did not precede a rise in temperatures, but actually lagged behind temperature rises by 200 to 1000 years",
+        "similarity_score": 0.4107953906059265
+      },
+      {
+        "claim": "Globally there's no clear evidence of trends and patterns in extreme events such as droughts, hurricanes and floods",
+        "similarity_score": 0.41043612360954285
+      }
+    ],
+    "Do you believe human activities are the main cause of climate change?": [
+      {
+        "claim": "Livestock are responsible for 18 percent of the greenhouse gases that cause global warming, more than cars, planes and all other forms of transport put together",
+        "similarity_score": 0.5007703304290771
+      },
+      {
+        "claim": "While there are direct ways in which CO2 is a pollutant (acidification of the ocean), its primary impact is its greenhouse warming effect",
+        "similarity_score": 0.48513102531433105
+      },
+      {
+        "claim": "Human emissions upset the natural balance, rising CO2 to levels not seen in at least 800,000 years",
+        "similarity_score": 0.4839933514595032
+      },
+      {
+        "claim": "Warmer oceans have also begun to destabilize glaciers in Greenland and Antarctica",
+        "similarity_score": 0.460915207862854
+      },
+      {
+        "claim": "Early 20th century warming was in large part due to rising solar activity and relatively quiet volcanic activity",
+        "similarity_score": 0.4581654667854309
+      },
+      {
+        "claim": "The warming effect from more CO2 greatly outstrips the influence from changes in the Earth's orbit or solar activity, even if solar levels were to drop to Maunder Minimum levels",
+        "similarity_score": 0.4524812698364258
+      },
+      {
+        "claim": "This increase is the result of humans emitting more carbon dioxide into the atmosphere and hence more being absorbed into the oceans",
+        "similarity_score": 0.44098275899887085
+      },
+      {
+        "claim": "The correlation between solar activity and global temperatures ended around 1975, hence recent warming must have some other cause than solar variations",
+        "similarity_score": 0.44039440155029297
+      },
+      {
+        "claim": "Most glaciers are retreating, posing a serious problem for millions who rely on glaciers for water",
+        "similarity_score": 0.43913573026657104
+      },
+      {
+        "claim": "Studies have determined that current technology is sufficient to reduce greenhouse gas emissions the necessary amount, and that we can do so without significant impact on the economy",
+        "similarity_score": 0.43737709522247314
+      },
+      {
+        "claim": "Warming causes more moisture in the air which leads to more extreme precipitation events",
+        "similarity_score": 0.43108314275741577
+      },
+      {
+        "claim": "Increased atmospheric carbon dioxide has helped raise global food production and reduce poverty",
+        "similarity_score": 0.42887353897094727
+      },
+      {
+        "claim": "Numerous studies into the effect of urban heat island effect and microsite influences find they have negligible effect on long-term trends, particularly when averaged over large regions",
+        "similarity_score": 0.42808401584625244
+      },
+      {
+        "claim": "Severe storms, floods and agricultural losses may cost a great deal of money, but such extreme weather events and their resulting costs are dramatically declining as the Earth modestly warms",
+        "similarity_score": 0.42472004890441895
+      },
+      {
+        "claim": "Global human emissions are only 3 per cent of total annual emissions",
+        "similarity_score": 0.41888684034347534
+      },
+      {
+        "claim": "The CO2 amplifies the warming and mixes through the atmosphere, spreading warming throughout the planet",
+        "similarity_score": 0.4187012314796448
+      },
+      {
+        "claim": "For example, we have a lower understanding of the effect of aerosols while we have a high understanding of the warming effect of carbon dioxide",
+        "similarity_score": 0.4133327603340149
+      },
+      {
+        "claim": "The Millennium Drought starting in 1997 and ending in 2010 was misinterpreted as a long term trend as a consequence of climate change",
+        "similarity_score": 0.40870168805122375
+      },
+      {
+        "claim": "The main reason behind this mid-century cooling was global dimming due to anthropogenic sulfate aerosol emissions",
+        "similarity_score": 0.3999684453010559
+      },
+      {
+        "claim": "The amount of summer sea ice in the Arctic has steadily declined over the past few decades because of man-made global warming, according to the National Oceanic and Atmospheric Administration",
+        "similarity_score": 0.3976845145225525
+      },
+      {
+        "claim": "Increasing CO2 in the atmosphere has little to no effect",
+        "similarity_score": 0.39651694893836975
+      },
+      {
+        "claim": "The most notorious was 252 million years ago; it began when carbon warmed the planet by five degrees, accelerated when that warming triggered the release of methane in the Arctic, and ended with 97 percent of all life on Earth dead",
+        "similarity_score": 0.39445024728775024
+      },
+      {
+        "claim": "Although it has some very important and beneficial effects, CO2 meets the legal and encyclopedic definitions of a pollutant, and human CO2 emissions pose a threat to public health and welfare",
+        "similarity_score": 0.3932090103626251
+      },
+      {
+        "claim": "It appears, for the entire tropics, the observed outgoing radiation fluxes increase with the increase in sea surface temperatures (SSTs)",
+        "similarity_score": 0.39116284251213074
+      },
+      {
+        "claim": "The 2nd law of thermodynamics is consistent with the greenhouse effect which is directly observed",
+        "similarity_score": 0.3901270627975464
+      },
+      {
+        "claim": "That atmospheric CO2 increase that we observe is a product of temperature increase, and not the other way around, meaning it is a product of natural variation",
+        "similarity_score": 0.3896964192390442
+      },
+      {
+        "claim": "Cold kills many more people than heat",
+        "similarity_score": 0.3889836072921753
+      },
+      {
+        "claim": "In reality, gas produced by fracking is worse for the climate than coal",
+        "similarity_score": 0.38827618956565857
+      },
+      {
+        "claim": "Melting ice leads to more sunlight being absorbed by water, thus heating the Arctic",
+        "similarity_score": 0.38782280683517456
+      },
+      {
+        "claim": "The long-term correlation between CO2 and temperature is well established",
+        "similarity_score": 0.3845801055431366
+      },
+      {
+        "claim": "The melting Greenland ice sheet is already a major contributor to rising sea level and if it was eventually lost entirely, the oceans would rise by six metres around the world, flooding many of the world's largest cities",
+        "similarity_score": 0.3808860778808594
+      },
+      {
+        "claim": "Humans are emitting CO2 at a rate twice as fast as the atmospheric increase (natural sinks are absorbing the other half)",
+        "similarity_score": 0.37699219584465027
+      },
+      {
+        "claim": "U.S. pays $1 billion into green climate fund, top polluters pay nothing",
+        "similarity_score": 0.37635868787765503
+      },
+      {
+        "claim": "Even during a period of long term warming, there are short periods of cooling due to climate variability",
+        "similarity_score": 0.37024766206741333
+      },
+      {
+        "claim": "Pollution - none of us are supporting putting substances into the atmosphere or the waterways that might be pollutants, but carbon dioxide is not a pollutant",
+        "similarity_score": 0.3699198365211487
+      },
+      {
+        "claim": "Evidence is growing that the comparatively cold zone within the northern Atlantic could be due to a slowdown of this global ocean water circulation",
+        "similarity_score": 0.36780479550361633
+      },
+      {
+        "claim": "An individual heatwave triggering coral bleaching cannot be linked to global warming as the process triggering an individual heatwave is fundamentally different from that triggering global warming",
+        "similarity_score": 0.36651507019996643
+      },
+      {
+        "claim": "Doubling the concentration of atmospheric CO2 from its pre-industrial level, in the absence of other forcings and feedbacks, would likely cause a warming of ~0.3\u00b0C to 1.1\u00b0C",
+        "similarity_score": 0.36445721983909607
+      },
+      {
+        "claim": "Through decades of research, it has become clear that human civilization, roughly 6,000 years old, developed during an unusually stable period for global sea levels",
+        "similarity_score": 0.36270177364349365
+      },
+      {
+        "claim": "An area of coastal ecosystems larger than New York City is destroyed every year, removing an important buffer from extreme weather for coastal communities and releasing carbon dioxide into the atmosphere",
+        "similarity_score": 0.35968565940856934
+      },
+      {
+        "claim": "Climate models predict too much warming in the troposphere",
+        "similarity_score": 0.35437923669815063
+      },
+      {
+        "claim": "(Koch Industries) is among the worst in toxic air pollution in the entire United States ... and churns out more climate-changing greenhouse gases than oil giants Chevron, Shell and Valero",
+        "similarity_score": 0.35297083854675293
+      },
+      {
+        "claim": "As surface temperatures of the oceans warm up, the immediate response is more water vapor in the atmosphere",
+        "similarity_score": 0.34971171617507935
+      },
+      {
+        "claim": "When you account for all of the costs associated with burning coal and other fossil fuels, like air pollution and health effects, in reality they are significantly more expensive than most renewable energy sources",
+        "similarity_score": 0.3496037721633911
+      },
+      {
+        "claim": "Various independent measurements of solar activity all confirm the sun has shown a slight cooling trend since 1978",
+        "similarity_score": 0.3481079339981079
+      },
+      {
+        "claim": "The rate of warming according to the data is much slower than the models used by the IPCC",
+        "similarity_score": 0.3479039669036865
+      }
+    ],
+    "Do you believe human-caused climate change has increased the frequency of extreme weather events (hurricanes, heatwaves, wildfires) beyond their natural occurrence patterns?": [
+      {
+        "claim": "The 30 most costly hurricanes in U.S. history show no increase in intensity over time",
+        "similarity_score": 0.4715941548347473
+      },
+      {
+        "claim": "A paper in Science magazine concludes that the climate sensitivity - how much the Earth's average temperature will rise as a result of a doubling of the atmospheric concentration of carbon dioxide - likely lies in the range 1.7\u00b0C to 2.6\u00b0C, with a median value of 2.3\u00b0C",
+        "similarity_score": 0.40793469548225403
+      },
+      {
+        "claim": "Dropped stations introduce warming bias",
+        "similarity_score": 0.3855505585670471
+      },
+      {
+        "claim": "The jet stream meanders more, creating big loops that bring warm air to the frozen north and cold air to warmer southern regions",
+        "similarity_score": 0.3596789240837097
+      },
+      {
+        "claim": "Global sea level data shows that sea level rise has been increasing since 1880 while future sea level rise predictions are based on physics, not statistics",
+        "similarity_score": 0.35149267315864563
+      },
+      {
+        "claim": "Weather and climate are different; climate predictions do not need weather detail",
+        "similarity_score": 0.35110610723495483
+      },
+      {
+        "claim": "Unadjusted data suggests that temperatures in Australia have only increased by 0.3 degrees over the past century, not the 1 degree usually claimed",
+        "similarity_score": 0.350355327129364
+      },
+      {
+        "claim": "Polar bear numbers are increasing",
+        "similarity_score": 0.3457978367805481
+      },
+      {
+        "claim": "Drought in the western U.S. pales in comparison to the mega-droughts tree rings tell us existed in centuries past",
+        "similarity_score": 0.3433058261871338
+      },
+      {
+        "claim": "Every year air pollution protections are delayed, another 34,000 people will die prematurely",
+        "similarity_score": 0.3419122099876404
+      },
+      {
+        "claim": "Previous IPCC reports tended to assume that clouds would have a neutral impact because the warming and cooling feedbacks would cancel each other out",
+        "similarity_score": 0.3408659100532532
+      },
+      {
+        "claim": "The jet stream forms a boundary between the cold north and the warmer south, but the lower temperature difference means the winds are now weaker",
+        "similarity_score": 0.339326947927475
+      },
+      {
+        "claim": "Wind is a finite resource and harnessing it would slow the winds down, which would cause the temperature to go up",
+        "similarity_score": 0.3353080153465271
+      },
+      {
+        "claim": "While the medieval warm period saw unusually warm temperatures in some regions, globally the planet was cooler than current conditions",
+        "similarity_score": 0.3346085548400879
+      },
+      {
+        "claim": "The Northern Hemisphere jet stream flow is stronger when that temperature difference is large",
+        "similarity_score": 0.33312296867370605
+      },
+      {
+        "claim": "The jet stream controls broad weather patterns, such as high-pressure and low-pressure systems",
+        "similarity_score": 0.33154603838920593
+      },
+      {
+        "claim": "Global brightening is caused by changes in cloud cover, reflective aerosols and absorbing aerosols",
+        "similarity_score": 0.319691002368927
+      },
+      {
+        "claim": "Given that a doubling of carbon dioxide would change the surface heat flux by only two watts per square meter, it is evident that a small change in cloud cover can strongly affect the response to carbon dioxide",
+        "similarity_score": 0.31946587562561035
+      },
+      {
+        "claim": "In IPCC Third Assessment Report Chapter 2, the decline refers to northern tree-rings, not global temperature, and is openly discussed in papers and IPCC reports",
+        "similarity_score": 0.3175264000892639
+      },
+      {
+        "claim": "Surface measurements find more downward infrared radiation warming the planet's surface",
+        "similarity_score": 0.3166976273059845
+      },
+      {
+        "claim": "According to the WHO, exposure to particulate matter increases the risk of acute lower respiratory infection, chronic obstructive pulmonary disease, heart disease, stroke and lung cancer",
+        "similarity_score": 0.31558388471603394
+      },
+      {
+        "claim": "If the CO2 effect was saturated, adding more CO2 should add no additional greenhouse effect",
+        "similarity_score": 0.3142125606536865
+      },
+      {
+        "claim": "CO2 levels are measured by hundreds of stations scattered across 66 countries which all report the same rising trend",
+        "similarity_score": 0.3119000196456909
+      },
+      {
+        "claim": "The satellite sensors show less warming in the lower troposphere than is reported by surface temperature readings",
+        "similarity_score": 0.3058526813983917
+      },
+      {
+        "claim": "Ice mass loss is occurring at an accelerated rate in Greenland, Antarctica and globally from inland glaciers",
+        "similarity_score": 0.3017794191837311
+      },
+      {
+        "claim": "But when the Arctic warms up faster than the equator does, the jet stream's flow can become weakened and elongated",
+        "similarity_score": 0.2955322265625
+      },
+      {
+        "claim": "The melting ice has led to global sea level rise of around eight inches since reliable record keeping began in 1880",
+        "similarity_score": 0.2893630862236023
+      },
+      {
+        "claim": "Maximum warming occurs over the surface during winter while less surface warming is found in summer when heat is being used to melt sea ice",
+        "similarity_score": 0.2870185375213623
+      },
+      {
+        "claim": "Global ocean circulation appears to be collapsing due to a warming planet",
+        "similarity_score": 0.2839135527610779
+      },
+      {
+        "claim": "Lyme disease is much more common in northern, cooler regions of the United States than in southern, warmer regions",
+        "similarity_score": 0.28166356682777405
+      },
+      {
+        "claim": "The IPCC confirms that computer modeling predicts the existence of a tropical, mid-troposphere hot spot about 10km above the Earth's surface",
+        "similarity_score": 0.2801976501941681
+      },
+      {
+        "claim": "UAH atmospheric temperatures prove climate models and/or surface temperature data sets are wrong",
+        "similarity_score": 0.27973073720932007
+      },
+      {
+        "claim": "The final amount of extra CO2 that remains in the atmosphere stays there on a time scale of centuries",
+        "similarity_score": 0.27325546741485596
+      },
+      {
+        "claim": "More than half of the 44 studies selected for publication found that raised levels of CO2 had little or no impact on marine life, including crabs, limpets, sea urchins and sponges",
+        "similarity_score": 0.27312996983528137
+      },
+      {
+        "claim": "The concentration of carbon dioxide in Earth's atmosphere has climbed to a level last seen more than 3 million years ago - before humans even appeared on the rocky ball we call home",
+        "similarity_score": 0.2726169228553772
+      },
+      {
+        "claim": "Antarctica is gaining land-based ice, according to a new study by NASA scientists published in the Journal of Glaciology",
+        "similarity_score": 0.26937568187713623
+      },
+      {
+        "claim": "Sea level rise has been slow and a constant, pre-dating industrialization",
+        "similarity_score": 0.2691692113876343
+      },
+      {
+        "claim": "Dr Michael Mann's graph combined two datasets - tree-ring data for historical temperatures and thermometer measurements for recent decades",
+        "similarity_score": 0.26532238721847534
+      },
+      {
+        "claim": "The atmosphere of the Earth is less able to absorb shortwave radiation from the Sun than thermal radiation coming from the surface",
+        "similarity_score": 0.2626797556877136
+      },
+      {
+        "claim": "Arctic icemelt is a natural cycle",
+        "similarity_score": 0.25668367743492126
+      },
+      {
+        "claim": "The Pacific Decadal Oscillation (PDO) is a temperature pattern in the Pacific Ocean that spends roughly 20-30 years in the cool phase or the warm phase",
+        "similarity_score": 0.25464653968811035
+      },
+      {
+        "claim": "Volcanoes emit around 0.3 billion tonnes of CO2 per year",
+        "similarity_score": 0.2515963315963745
+      },
+      {
+        "claim": "A major part of the climate change bill sponsored by Sens. John Kerry and Joe Lieberman \"was essentially written by BP.\"",
+        "similarity_score": 0.24665886163711548
+      },
+      {
+        "claim": "Most of the atmospheric moisture originates in the tropical ocean, and the difference between surface and upper atmospheric temperature determines how much of the moisture rises into the atmosphere",
+        "similarity_score": 0.24251008033752441
+      },
+      {
+        "claim": "Previous studies have shown that weakening carbon sinks will add 0.25\u00b0C, forest dieback will add 0.11\u00b0C, permafrost thaw will add 0.9\u00b0C and increased bacterial respiration will add 0.02\u00b0C",
+        "similarity_score": 0.24240298569202423
+      },
+      {
+        "claim": "The Keeling Curve, which is widely used to show the increase in CO2 emissions, is based on data from the top of Mount Mauna Loa in Hawaii",
+        "similarity_score": 0.24200013279914856
+      }
+    ],
+    "Do you believe scientists are exaggerating climate change impacts like melting ice caps, rising sea levels, and global warming?": [
+      {
+        "claim": "Observed sea levels are actually tracking at the upper range of the IPCC projections",
+        "similarity_score": 0.4189804792404175
+      },
+      {
+        "claim": "Both the extent and thickness of Arctic sea ice has declined rapidly over the last several decades",
+        "similarity_score": 0.39795005321502686
+      },
+      {
+        "claim": "Using satellite data rather than tide-gauge data that is normally used to measure sea levels allows for more precise estimates of global sea level, since it provides measurements of the open ocean",
+        "similarity_score": 0.3945290446281433
+      },
+      {
+        "claim": "The claim that 2.2 conventional jobs are destroyed for every new job created in the alternative energy industry is based on a study which relies on incorrect numbers, cherrypicked dates, faulty theory, flawed methodology, and is disproven by real-world examples",
+        "similarity_score": 0.38621675968170166
+      },
+      {
+        "claim": "Australia accounts for 1.5 per cent of global carbon emissions",
+        "similarity_score": 0.3583322763442993
+      },
+      {
+        "claim": "Because oxygen in the global ocean is not evenly distributed, the 2 percent overall decline means there is a much larger decline in some areas of the ocean than others",
+        "similarity_score": 0.3519853353500366
+      },
+      {
+        "claim": "Greenland on the whole is losing ice, as confirmed by multiple satellite and on the ground field measurements",
+        "similarity_score": 0.3500795364379883
+      },
+      {
+        "claim": "While the Greenland interior is in mass balance, the coastlines are losing ice",
+        "similarity_score": 0.34942352771759033
+      },
+      {
+        "claim": "Satellites and on-site measurements are observing that Himalayan glaciers are disappearing at an accelerating rate",
+        "similarity_score": 0.34312504529953003
+      },
+      {
+        "claim": "While there has been a mean rise of a little more than 3mm per year worldwide since the 1990s, in the last decade, the NOAA Virginia Key tide gauge just south of Miami Beach has measured a 9mm rise annually",
+        "similarity_score": 0.33234018087387085
+      },
+      {
+        "claim": "Over 31,000 scientists signed the OISM petition project",
+        "similarity_score": 0.330586314201355
+      },
+      {
+        "claim": "The CERN CLOUD experiment only tested one-third of one out of four requirements necessary to blame global warming on cosmic rays, and two of the other requirements have already failed",
+        "similarity_score": 0.32280445098876953
+      },
+      {
+        "claim": "That's because as Antarctica's mass shrinks, the ice sheet's gravitational pull on the ocean relaxes somewhat, and the seas travel back across the globe to pile up far away - with U.S. coasts being one prime destination",
+        "similarity_score": 0.30561208724975586
+      },
+      {
+        "claim": "The ocean is absorbing massive amounts of CO2, and is becoming more acidic as a result",
+        "similarity_score": 0.30224698781967163
+      },
+      {
+        "claim": "The measurements of the amount of CO2 made at the Mauna Loa Observatory are accurate and uncontaminated by any emissions from the volcano",
+        "similarity_score": 0.29568958282470703
+      },
+      {
+        "claim": "Tuvalu sea level isn't rising",
+        "similarity_score": 0.284909725189209
+      },
+      {
+        "claim": "Arctic land stores about twice as much carbon as the atmosphere",
+        "similarity_score": 0.28249138593673706
+      },
+      {
+        "claim": "Since the beginning of the industrial revolution, the acidity of surface ocean waters has increased by about 30 percent",
+        "similarity_score": 0.27745604515075684
+      },
+      {
+        "claim": "Coral atolls grow as sea levels rise",
+        "similarity_score": 0.27625635266304016
+      },
+      {
+        "claim": "If CO2 was so terrible for the planet, then installing a CO2 generator in a greenhouse would kill the plants",
+        "similarity_score": 0.2717459201812744
+      },
+      {
+        "claim": "The Obama administration has been constrained by the Oil Pollution Act of 1990, which basically gives the responsible party the lead role in trying to not only fix the problem, but contain the problem",
+        "similarity_score": 0.2592349350452423
+      },
+      {
+        "claim": "The EPA director under Obama said the Clean Power Initiative would have no effect on man-made CO2 emissions",
+        "similarity_score": 0.25862979888916016
+      },
+      {
+        "claim": "HFCs (hydrofluorocarbons) are tens of thousands of times more polluting than carbon dioxide",
+        "similarity_score": 0.2478303611278534
+      },
+      {
+        "claim": "Germany managed to increase its use of renewables and its output of carbon dioxide at the same time -- because it resorted to cheap coal to keep the lights on at a price its people could afford",
+        "similarity_score": 0.2432897984981537
+      },
+      {
+        "claim": "Growers regularly pump CO2 into greenhouses, raising levels to three times that of the natural environment, to produce stronger, greener, healthier plants",
+        "similarity_score": 0.24133481085300446
+      },
+      {
+        "claim": "The grasslands, crops, forests and territorial waters of Australia absorb more carbon dioxide than Australia emits",
+        "similarity_score": 0.21284526586532593
+      },
+      {
+        "claim": "Coral bleaching has devastated 93% of the Great Barrier Reef",
+        "similarity_score": 0.2119622677564621
+      },
+      {
+        "claim": "More than 260,000 Americans are employed by the domestic solar industry \u2014 three times as many workers as employed by the entire coal mining industry",
+        "similarity_score": 0.20825158059597015
+      },
+      {
+        "claim": "Benny Peiser, who criticized Naomi Oreskes' consensus study, retracted his criticism",
+        "similarity_score": 0.20730766654014587
+      },
+      {
+        "claim": "While methane is a more potent greenhouse gas than CO2, there is over 200 times more CO2 in the atmosphere",
+        "similarity_score": 0.2040020376443863
+      },
+      {
+        "claim": "Thousands of coral atolls have drowned in the past when they were unable to grow fast enough to maintain a presence at sea level",
+        "similarity_score": 0.19901874661445618
+      },
+      {
+        "claim": "Melting permafrost can release not just CO2, but also methane, a much stronger heat-trapping gas",
+        "similarity_score": 0.18969804048538208
+      },
+      {
+        "claim": "Without carbon dioxide, all life on Earth would die",
+        "similarity_score": 0.1843157708644867
+      },
+      {
+        "claim": "The effect of this disparity is that thermal radiation escaping to space comes mostly from the cold upper atmosphere, while the surface is maintained at a substantially warmer temperature",
+        "similarity_score": 0.1740807145833969
+      },
+      {
+        "claim": "Satellite and surface measurements find less energy is escaping to space at CO2 absorption wavelengths",
+        "similarity_score": 0.17139124870300293
+      },
+      {
+        "claim": "Subsidies for wind and solar add to emissions because coal-fired electricity needs to be on standby for when there is no wind or sunshine",
+        "similarity_score": 0.16907671093940735
+      },
+      {
+        "claim": "Individual carbon dioxide molecules have a short life time of around 5 years in the atmosphere",
+        "similarity_score": 0.16221043467521667
+      },
+      {
+        "claim": "Water vapor is the most powerful greenhouse gas",
+        "similarity_score": 0.15910467505455017
+      },
+      {
+        "claim": "Underneath the permafrost there are sediments full of methane hydrates",
+        "similarity_score": 0.14201438426971436
+      },
+      {
+        "claim": "Renewables can't provide baseload power",
+        "similarity_score": 0.12276898324489594
+      },
+      {
+        "claim": "There is no single continuous satellite measurement of total solar irradiance",
+        "similarity_score": 0.11330069601535797
+      },
+      {
+        "claim": "Tree-ring proxy reconstructions are reliable before 1960, tracking closely with the instrumental record and other independent proxies",
+        "similarity_score": 0.11057308316230774
+      },
+      {
+        "claim": "Clean coal is an approach in which the emissions from coal-burning power plants would be captured and pumped underground",
+        "similarity_score": 0.08683720231056213
+      },
+      {
+        "claim": "In Alaska, brown bears are changing their feeding habits to eat elderberries that ripen earlier",
+        "similarity_score": 0.08650995790958405
+      },
+      {
+        "claim": "A windmill could spin until it falls apart and never generate as much energy as was invested in building it",
+        "similarity_score": 0.06879192590713501
+      }
+    ]
+  },
+  "covid": {
+    "Do you think COVID-19 was a man-made virus?": [
+      {
+        "claim": "Research from Chinese scientists indicates that it is unlikely that the virus causing COVID-19 was transmitted directly from pangolins to humans",
+        "similarity_score": 0.7059811353683472
+      },
+      {
+        "claim": "A small fraction of people who contract COVID-19 appear to be responsible for a disproportionately large number of subsequent infections",
+        "similarity_score": 0.597987949848175
+      },
+      {
+        "claim": "The majority of people with confirmed coronavirus were likely infected by people who didn't know they had it",
+        "similarity_score": 0.590395450592041
+      },
+      {
+        "claim": "Men often have higher levels of antibodies than women once exposed to COVID-19",
+        "similarity_score": 0.5883762836456299
+      },
+      {
+        "claim": "Even a year later there exists protection acquired with the immune response to a patient's first infection of COVID-19",
+        "similarity_score": 0.5853261947631836
+      },
+      {
+        "claim": "Genetic sequencing indicates that the virus that causes COVID-19 is likely to have originated in bats",
+        "similarity_score": 0.5841963291168213
+      },
+      {
+        "claim": "Men of color face higher risk of contracting COVID-19",
+        "similarity_score": 0.5841035842895508
+      },
+      {
+        "claim": "Observational studies suggest that eye protection had no impact on the transmission of COVID-19",
+        "similarity_score": 0.5767959356307983
+      },
+      {
+        "claim": "Computer modeling supports evidence implicating small, airborne droplets in multiple outbreaks of COVID-19",
+        "similarity_score": 0.573334813117981
+      },
+      {
+        "claim": "COVID-19 affects children and adults similarly",
+        "similarity_score": 0.5689182877540588
+      },
+      {
+        "claim": "Individuals with COVID-19 can transmit the virus by speaking normally in an enclosed space",
+        "similarity_score": 0.5684716105461121
+      },
+      {
+        "claim": "One type of COVID-19 test identifies coronavirus proteins in thirty minutes",
+        "similarity_score": 0.5668603181838989
+      },
+      {
+        "claim": "Close monitoring of the reproduction number of COVID-19 is crucial to preventing a second wave of infections",
+        "similarity_score": 0.5654791593551636
+      },
+      {
+        "claim": "A stretch of DNA that decreases the risk of severe illness from COVID-19 was passed down from Neanderthals 60,000 years ago",
+        "similarity_score": 0.5650539398193359
+      },
+      {
+        "claim": "SARS-CoV-2 cellular immunity was not found in the blood of COVID-19 patients once they became virus-free",
+        "similarity_score": 0.5627679824829102
+      },
+      {
+        "claim": "COVID-19 patients who recently became virus-free had traces of SARS-CoV-2 cellular immunity in their blood",
+        "similarity_score": 0.5614932775497437
+      },
+      {
+        "claim": "Researchers also found that people with Type O blood were slightly less likely to get COVID-19 than people with other blood types",
+        "similarity_score": 0.554538369178772
+      },
+      {
+        "claim": "Children tend to be less susceptible to infection from COVID-19 than adults are",
+        "similarity_score": 0.5472143888473511
+      },
+      {
+        "claim": "COVID-19 is equally transmissible via indoor and outdoor environments",
+        "similarity_score": 0.5403899550437927
+      },
+      {
+        "claim": "Genetically, SARS-CoV-2 is dissimilar to coronaviruses found in pangolins",
+        "similarity_score": 0.5389556884765625
+      },
+      {
+        "claim": "Only a third of hospitalized COVID-19 patients had a fever",
+        "similarity_score": 0.5339186191558838
+      },
+      {
+        "claim": "Men have been less likely than women to engage in coronavirus protective health behaviors",
+        "similarity_score": 0.5328328609466553
+      },
+      {
+        "claim": "COVID-19-positive patients who do not show symptoms are not contagious",
+        "similarity_score": 0.5299273729324341
+      },
+      {
+        "claim": "An estimated 40 percent of people with COVID-19 infections never develop symptoms like fevers",
+        "similarity_score": 0.5271660685539246
+      },
+      {
+        "claim": "The infectiousness of SARS-CoV-2 appears to peak within the first few days of the onset of COVID-19 symptoms and then decrease with time",
+        "similarity_score": 0.5213815569877625
+      },
+      {
+        "claim": "Some babies born to pregnant women with COVID-19 may contract the disease in the womb",
+        "similarity_score": 0.5182111859321594
+      },
+      {
+        "claim": "There is no correlation between smoking and illness progression of covid-19",
+        "similarity_score": 0.5087027549743652
+      },
+      {
+        "claim": "Synthetic interferons, a treatment option for a number of immune disorders, are inapplicable to the treatment of COVID-19",
+        "similarity_score": 0.5057659149169922
+      },
+      {
+        "claim": "Ferrets pass the novel coronavirus on to one another in a different way than humans do",
+        "similarity_score": 0.5044851303100586
+      },
+      {
+        "claim": "Individuals with blood type A are more susceptible to COVID-19 infection, compared with the other blood groups",
+        "similarity_score": 0.5041550397872925
+      },
+      {
+        "claim": "People who have recovered from COVID-19 have powerful and protective killer immune cells in the months following infection",
+        "similarity_score": 0.5033563375473022
+      }
+    ],
+    "Do you think COVID-19 vaccines are safe and effective?": [
+      {
+        "claim": "Mothers infected with COVID-19 are likely to pass the infection to their newborns regardless of health precautions taken",
+        "similarity_score": 0.582364559173584
+      },
+      {
+        "claim": "Convalescent plasma therapy does not improve clinical results in patients suffering from COVID-19",
+        "similarity_score": 0.520079493522644
+      },
+      {
+        "claim": "More antibodies in a particular batch of convalescent plasma had no effect in preventing COVID-19 related death",
+        "similarity_score": 0.5191465616226196
+      },
+      {
+        "claim": "There is a greater risk of catching COVID-19 indoors than there is risk of catching it outdoors",
+        "similarity_score": 0.5146642327308655
+      },
+      {
+        "claim": "COVID-19 testing that can simultaneously screen patients for the novel coronavirus and its antibodies worsens diagnostic sensitivity",
+        "similarity_score": 0.4967266321182251
+      },
+      {
+        "claim": "Research suggests that children are not likely to die from the coronavirus or to suffer a severe health consequence",
+        "similarity_score": 0.4953315258026123
+      },
+      {
+        "claim": "The highest rate of severe cases and deaths due to COVID-19 remains the elderly",
+        "similarity_score": 0.4941808879375458
+      },
+      {
+        "claim": "Chloroquine and hydroxychloroquine are not treatment options for COVID-19",
+        "similarity_score": 0.4880540668964386
+      },
+      {
+        "claim": "Recent scientific studies find no evidence of localized genetic susceptibility to respiratory failure in COVID-19 patients",
+        "similarity_score": 0.4779069125652313
+      },
+      {
+        "claim": "An mRNA vaccine candidate BNT162b1 against COVID-19 produced little increase in SARS-CoV-2 neutralizing agents in a Phase 1 study",
+        "similarity_score": 0.47454479336738586
+      },
+      {
+        "claim": "Cansino reported that their Phase 2 trials demonstrated that their adenovirus vectored coronavirus vaccine produced no detectable immune response",
+        "similarity_score": 0.4738626480102539
+      },
+      {
+        "claim": "Children have a significantly high risk of complications related to coronavirus",
+        "similarity_score": 0.46666714549064636
+      },
+      {
+        "claim": "Most children who contract COVID-19 display only mild symptoms while ill",
+        "similarity_score": 0.4573189616203308
+      },
+      {
+        "claim": "Lockdown restrictions raised the risk of COVID-19 infection within households",
+        "similarity_score": 0.4565355181694031
+      },
+      {
+        "claim": "COVID-19 patients typically are at high risk for delirium",
+        "similarity_score": 0.45639634132385254
+      },
+      {
+        "claim": "Most patients who recover from the novel coronavirus will make antibodies",
+        "similarity_score": 0.4550902843475342
+      },
+      {
+        "claim": "More than half of U.S. adults have at least one condition that increases their risk of becoming seriously ill if infected with SARS-CoV-2",
+        "similarity_score": 0.4516042470932007
+      },
+      {
+        "claim": "Convalescent plasma given to severe COVID-19 patients worsened their symptoms",
+        "similarity_score": 0.4492524266242981
+      },
+      {
+        "claim": "Researchers have investigated the possibility of using drugs to target human proteins that interact with SARS-CoV-2, instead of just targeting the virus",
+        "similarity_score": 0.4479263424873352
+      },
+      {
+        "claim": "Hydroxychloroquine is consistently effective in improving the prognosis of patients hospitalized with COVID-19",
+        "similarity_score": 0.4458293616771698
+      },
+      {
+        "claim": "A study of more than 130,000 people found that autoimmune conditions like Type 1 diabetes, psoriasis and rheumatoid arthritis increase the risk of respiratory complications and death from COVID-19",
+        "similarity_score": 0.44494181871414185
+      },
+      {
+        "claim": "Wearing a face mask does not reduce the likelihood that someone with coronavirus spreads it to another person",
+        "similarity_score": 0.4389455318450928
+      },
+      {
+        "claim": "There is not a supported link between Vitamin D concentration and the risk of COVID-19 infection",
+        "similarity_score": 0.43789249658584595
+      },
+      {
+        "claim": "Among health care workers, nurses in particular have little to no risk of contracting COVID-19",
+        "similarity_score": 0.43520617485046387
+      },
+      {
+        "claim": "People can spread the coronavirus before they started coughing and feeling achy",
+        "similarity_score": 0.4327176809310913
+      },
+      {
+        "claim": "The coronavirus can result in severe long-term neurological effects",
+        "similarity_score": 0.4296432435512543
+      },
+      {
+        "claim": "COVID-19's secondary attack rate has been found to be between about 10 to 20 percent",
+        "similarity_score": 0.42580991983413696
+      },
+      {
+        "claim": "Seriously ill COVID-19 patients who were treated with hydroxychloroquine and chloroquine were more likely to die",
+        "similarity_score": 0.422934889793396
+      },
+      {
+        "claim": "Stealth transmissions play only a minor role in COVID-19's spread",
+        "similarity_score": 0.4188736081123352
+      },
+      {
+        "claim": "Plasma therapy is a treatment that has been used against viral epidemics since the 1918 Spanish Flu",
+        "similarity_score": 0.4173075556755066
+      }
+    ],
+    "Do you think masks provide real protection against COVID-19?": [
+      {
+        "claim": "Mask-wearers with clinical respiratory illness are less likely to infect others in their households who are not wearing masks",
+        "similarity_score": 0.6828715801239014
+      },
+      {
+        "claim": "Homemade cloth masks are less effective than proper surgical ones in blocking bacterial and viral aerosols",
+        "similarity_score": 0.6419652700424194
+      },
+      {
+        "claim": "COVID-19 can be detected in the conjunctival secretions in coronavirus patients with pink eye",
+        "similarity_score": 0.44409507513046265
+      },
+      {
+        "claim": "The coronavirus can spread through the air in enclosed spaces",
+        "similarity_score": 0.4244956970214844
+      },
+      {
+        "claim": "Individuals with mild symptoms of coronavirus can spread SARS-CoV-2 through the air",
+        "similarity_score": 0.40763866901397705
+      },
+      {
+        "claim": "COVID-19 does not have a humidity or temperature dependent niche",
+        "similarity_score": 0.4054797291755676
+      },
+      {
+        "claim": "Infected individuals who don't feel ill may carry just as much coronavirus in their nose, throat and lungs as those with symptoms",
+        "similarity_score": 0.4009391665458679
+      },
+      {
+        "claim": "Germicidal UV can effectively inactivate airborne microbes that transmit SARS-CoV",
+        "similarity_score": 0.3910403251647949
+      },
+      {
+        "claim": "Social distancing of at least 1 meter reduces COVID-19 transmission",
+        "similarity_score": 0.3901955187320709
+      },
+      {
+        "claim": "Drugs that block interleukin-6 activity can decrease likelihood of death among mechanically ventilated COVID-19 patients",
+        "similarity_score": 0.38005825877189636
+      },
+      {
+        "claim": "Global wildlife trade, particularly in exotic or endangered species has no impact on the risk of transmission of the coronavirus",
+        "similarity_score": 0.3750162720680237
+      },
+      {
+        "claim": "Black and Hispanic Americans are more likely to be affected by the COVID-19 pandemic, compared with white people",
+        "similarity_score": 0.3740684986114502
+      },
+      {
+        "claim": "Sunlight could help to reduce the amount of the novel coronavirus lingering on surfaces",
+        "similarity_score": 0.3689914047718048
+      },
+      {
+        "claim": "People with obesity who caught the coronavirus were more than twice as likely to end up in the hospital",
+        "similarity_score": 0.36885303258895874
+      },
+      {
+        "claim": "Chronic conditions like obesity, high blood pressure, and diabetes are common risk factors for severe COVID-19",
+        "similarity_score": 0.3573272228240967
+      },
+      {
+        "claim": "The coronavirus can be detected in the air up to 13 feet away from an infected patient",
+        "similarity_score": 0.35686662793159485
+      },
+      {
+        "claim": "Among women of reproductive age with COVID-19, nonpregnant women are more likely to be hospitalized in the ICU than pregnant women are",
+        "similarity_score": 0.35399699211120605
+      },
+      {
+        "claim": "Droplets containing the coronavirus were shown to be carried by the air conditioning",
+        "similarity_score": 0.3536319136619568
+      },
+      {
+        "claim": "A study of air samples in two hospitals in Wuhan, China, found that coronavirus aerosols in isolation wards and ventilated patient rooms was very high, and it was lower in the toilet areas used by the patients",
+        "similarity_score": 0.34879255294799805
+      },
+      {
+        "claim": "Adults who tested positive for the coronavirus were just as likely to have eaten at a restaurant in the two weeks before getting sick compared with people who were not infected",
+        "similarity_score": 0.3476341962814331
+      },
+      {
+        "claim": "Blood pressure drugs increase severity of COVID-19 cases",
+        "similarity_score": 0.3327430784702301
+      },
+      {
+        "claim": "Scientists have not been able to isolate infectious SARS-CoV-2 from urine in laboratory settings",
+        "similarity_score": 0.327094167470932
+      },
+      {
+        "claim": "Disease-fighting antibodies, as well as immune cells called B cells and T cells that are capable of recognizing the virus, do not persist after the infections have resolved",
+        "similarity_score": 0.321245402097702
+      },
+      {
+        "claim": "In a survey of individuals who had COVID-19 and illness lasting over 28 days (long COVID), 67 percent of those surveyed were either not working or working reduced hours due to their health conditions",
+        "similarity_score": 0.31891316175460815
+      },
+      {
+        "claim": "Clofazimine fought off the SARS-CoV-2 in animals if they received it soon after being infected",
+        "similarity_score": 0.31800577044487
+      },
+      {
+        "claim": "Cats can be infected by the novel coronavirus but are unlikely to get sick",
+        "similarity_score": 0.3177088797092438
+      },
+      {
+        "claim": "Singing may result in increased transmission of COVID-19 due to the increased emission of aerosolized virus",
+        "similarity_score": 0.31285619735717773
+      },
+      {
+        "claim": "Traditional, manual contact tracing is too slow to keep pace with the spread of the novel coronavirus",
+        "similarity_score": 0.311292827129364
+      },
+      {
+        "claim": "The novel coronavirus can be transmitted by respiratory droplets in cats",
+        "similarity_score": 0.31003332138061523
+      },
+      {
+        "claim": "The novel coronavirus is the same species as the virus that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in China in 2002-2003",
+        "similarity_score": 0.30676591396331787
+      }
+    ],
+    "Do you think stay-at-home measures helped prevent the spread of COVID-19?": [
+      {
+        "claim": "Female front-line workers treating patients with COVID-19 experienced higher rates or more severe symptoms of depression, anxiety, insomnia and distress than health-care workers overall",
+        "similarity_score": 0.46104735136032104
+      },
+      {
+        "claim": "High rates of anxiety, depression, and insomnia were found among medical workers who treated COVID-19 patients",
+        "similarity_score": 0.4180719256401062
+      },
+      {
+        "claim": "The majority of coronaviruses have a winter seasonality",
+        "similarity_score": 0.3830324113368988
+      },
+      {
+        "claim": "The presence of coronavirus in a community can be detected in its sewage",
+        "similarity_score": 0.3769761919975281
+      },
+      {
+        "claim": "Some patients hospitalized with COVID-19 had new-onset psychosis",
+        "similarity_score": 0.3737971782684326
+      },
+      {
+        "claim": "Hydroxychloroquine had no impact on the coronavirus recovery time of patients who were mildly ill",
+        "similarity_score": 0.3705926537513733
+      },
+      {
+        "claim": "Pregnant women with coronavirus are at an increased risk of severe illness",
+        "similarity_score": 0.35639452934265137
+      },
+      {
+        "claim": "Heart muscle cell damage is not an associated condition among hospitalized COVID-19 patients",
+        "similarity_score": 0.3265630006790161
+      },
+      {
+        "claim": "Changes in coronavirus levels in wastewater preceded rises and falls in positive test results by a few days",
+        "similarity_score": 0.3253984749317169
+      },
+      {
+        "claim": "The novel coronavirus uses a different entry point into human cells as SARS does",
+        "similarity_score": 0.3235955834388733
+      },
+      {
+        "claim": "Horseshoe bats are the reservoir species for many SARS-like coronaviruses",
+        "similarity_score": 0.31746792793273926
+      },
+      {
+        "claim": "The SARS-CoV-2 virus particles found in infected patients' stools were highly infectious",
+        "similarity_score": 0.3064538836479187
+      },
+      {
+        "claim": "COVID-19 has been linked with cases of a similar rare condition in children called Kawasaki disease",
+        "similarity_score": 0.3004119098186493
+      },
+      {
+        "claim": "Members of different bat species share living spaces in very large groups, allowing viruses to spread easily among them",
+        "similarity_score": 0.2973219156265259
+      },
+      {
+        "claim": "A research team found 69 drugs that target the same proteins in our cells the novel coronavirus does",
+        "similarity_score": 0.2909316420555115
+      },
+      {
+        "claim": "Tocilizumab reduced the death rates in severely ill coronavirus patients",
+        "similarity_score": 0.2862817049026489
+      },
+      {
+        "claim": "The transmission of SARS-CoV-2 is not related to the airflow direction within an indoor space",
+        "similarity_score": 0.2764762043952942
+      },
+      {
+        "claim": "Molnupiravir produced promising results against the new coronavirus in early studies in cells and on animals",
+        "similarity_score": 0.2698747217655182
+      },
+      {
+        "claim": "There are approximately 1 in 4 incidences of venous thromboembolism in patients with severe novel coronavirus pneumonia symptoms of SARS-CoV-2",
+        "similarity_score": 0.2684994339942932
+      },
+      {
+        "claim": "Several studies have now shown that roughly 10 to 30 percent of hospitalized COVID-19 patients had high levels of troponin - a protein released into the blood when the heart's muscle cells are damaged",
+        "similarity_score": 0.2678045928478241
+      },
+      {
+        "claim": "Flight, which is shared by all bats but no other mammals, has allowed bats to evolve mechanisms that protect them from viruses",
+        "similarity_score": 0.2634226679801941
+      },
+      {
+        "claim": "High levels of a cytokine called interleukin-6 (IL-6) are associated with respiratory failure and death in COVID-19 patients",
+        "similarity_score": 0.2627914547920227
+      },
+      {
+        "claim": "PCR tests can reliably detect, in just a few hours, as few as 100 copies of viral RNA in a milliliter of spit or snot",
+        "similarity_score": 0.2547285556793213
+      },
+      {
+        "claim": "Fluid simulations suggest existing toilets expel a large number of potentially virus-laden fecal particles when flushing",
+        "similarity_score": 0.25139743089675903
+      },
+      {
+        "claim": "Pro-vaccine Facebook clusters are smaller in size than anti-vaccine clusters",
+        "similarity_score": 0.24758416414260864
+      },
+      {
+        "claim": "Bats' biological ability to detect cytosolic DNA in the body helps them respond to and fight against viruses",
+        "similarity_score": 0.228603795170784
+      },
+      {
+        "claim": "A team of researchers at New York University Langone Medical Center found that, out of 84 patients treated with the combination of hydroxychloroquine and azithromycin, 11 percent had QT prolongation beyond 500 milliseconds - the proven danger zone for sudden cardiac death",
+        "similarity_score": 0.17296242713928223
+      },
+      {
+        "claim": "Hydroxychloroquine could reduce patients' chances of being put on a mechanical ventilator",
+        "similarity_score": 0.1676485389471054
+      },
+      {
+        "claim": "Talking can propel thousands of droplets so small they can remain suspended in the air for eight to 14 minutes",
+        "similarity_score": 0.11294379830360413
+      },
+      {
+        "claim": "Superspreading events can happen at call centers",
+        "similarity_score": 0.07028993219137192
+      }
+    ]
+  }
+}
