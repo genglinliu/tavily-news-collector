@@ -1,0 +1,54 @@
+{
+  "climate": {
+    "Do you believe climate change is real?": [
+      {
+        "claim": "Scientists are exaggerating the impacts of climate change to secure more funding",
+        "similarity_score": 0.5414571762084961
+      }
+    ],
+    "Do you believe human activities are the main cause of climate change?": [
+      {
+        "claim": "Climate change is due to cosmic rays",
+        "similarity_score": 0.5510446429252625
+      }
+    ],
+    "Do you believe human-caused climate change has increased the frequency of extreme weather events (hurricanes, heatwaves, wildfires) beyond their natural occurrence patterns?": [
+      {
+        "claim": "Global warming is causing more hurricanes and stronger hurricanes",
+        "similarity_score": 0.6216951012611389
+      }
+    ],
+    "Do you believe scientists are exaggerating climate change impacts like melting ice caps, rising sea levels, and global warming?": [
+      {
+        "claim": "That human CO2 is causing global warming is known with high certainty & confirmed by observations",
+        "similarity_score": 0.5497121214866638
+      }
+    ]
+  },
+  "covid": {
+    "Do you think COVID-19 was a man-made virus?": [
+      {
+        "claim": "COVID-19 was engineered in a lab in Wuhan, China",
+        "similarity_score": 0.6284303665161133
+      }
+    ],
+    "Do you think COVID-19 vaccines are safe and effective?": [
+      {
+        "claim": "COVID-19 vaccines have dangerous side effects and were rushed to market without proper testing",
+        "similarity_score": 0.7472223043441772
+      }
+    ],
+    "Do you think masks provide real protection against COVID-19?": [
+      {
+        "claim": "Masks are ineffective at preventing the spread of COVID-19 and may actually be harmful",
+        "similarity_score": 0.8850265741348267
+      }
+    ],
+    "Do you think stay-at-home measures helped prevent the spread of COVID-19?": [
+      {
+        "claim": "Lockdowns caused more harm than good and had minimal impact on reducing COVID-19 transmission",
+        "similarity_score": 0.5168657302856445
+      }
+    ]
+  }
+}
